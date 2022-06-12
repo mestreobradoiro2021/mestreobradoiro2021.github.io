@@ -347,7 +347,7 @@ nav ul li{
 
 .texto-avelan{
     text-align: justify;
-    height: 200px;
+    min-height: 100px;
 }
 
 .contenido2-centro{
@@ -378,7 +378,7 @@ nav ul li{
 
 .texto-paxareira{
     text-align: justify;
-    height: 200px;
+    min-height: 100px;
 }
 
 .contenido2-der{
@@ -409,7 +409,7 @@ nav ul li{
 
 .texto-lestrove{
     text-align: justify;
-    height: 200px;
+    min-height: 100px;
 }
 
 .contenedor3{
