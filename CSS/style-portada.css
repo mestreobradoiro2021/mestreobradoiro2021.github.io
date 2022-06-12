@@ -1,0 +1,613 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:wght@100;200;300&family=Teko:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+h1{
+    font-size: 60px;
+    font-family: 'Allura', cursive;
+    color: #6e9e30b5;
+}
+
+h2{
+    font-size: 55px;
+    font-family: 'Allura', cursive;
+    color: #6E9E30;
+
+}
+h3{
+    font-size: 45px;
+    font-family: 'Allura', cursive;
+}
+
+h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 1.8em;
+}
+
+a{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+/*                header                  */
+
+
+.imgheader{
+    display: flex;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+.logo img{
+    height: 200px;
+    display: flex;
+    align-content: center;
+}
+.fraseinicio{
+    display: flex;
+    justify-content: end;
+    width: 95%;
+    
+}
+.fondofrase{
+    background-color: white;
+    opacity: 75%;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 700px;
+}
+.fondofrase p{
+    margin-top: 20px;
+}
+
+.lg-terra{
+    width: 205px;
+    position: relative;
+    bottom: 20px;
+}
+
+.idiomas a{
+    text-decoration: none;
+    
+}
+
+.boton a{
+    text-decoration: none;
+    background-color: #6E9E30;
+    padding: 12px;
+    border-radius: 30px;
+    
+}
+
+.foto-fondo{
+    background-image: url("../img/head-natureza.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 45%;
+     min-height: 900px;
+}
+
+.logo-terra{
+    width: 20%;
+
+}
+.idiomas{
+    width: 80%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+
+header{
+    background-image: url('../img/rosalia3.jpg');
+    height: 550px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+	}
+    
+.imgheader{
+    display: flex;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+.logo img{
+    height: 200px;
+    display: flex;
+    align-content: center;
+}
+
+.fondofrase{
+    background-color: white;
+    opacity: 69%;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 700px;
+    border-radius: 12px;
+    align-items: center;
+}
+.fondofrase h3{
+    color: #6e9e30b5;
+    margin-top: 20px;
+    font-size: 60px;
+    
+}
+.menu-principal{
+    display: flex;
+    align-items: center;
+    background-color: #6E9E30;
+    justify-content: center;
+    height: 50px;
+    
+}
+.menu-principal ul{
+    display: flex;
+    gap:60px;
+}
+
+.menu-principal a{
+    text-decoration: none;
+   
+}
+
+.menu-principal ul li {
+    list-style:none;
+    }
+.menu2{
+    background-color: #6e9e3069;
+	display: flex;
+    width: 100%;
+    height: 100px;
+}
+.menu2 ul{
+  display: flex;
+    flex-direction: row;
+    gap:25px;
+}
+.menu2 a{
+    color: rgb(255, 255, 255);
+    opacity: 100%;
+}
+.menu2 ul li {
+    list-style:none;
+    
+}
+
+/*                                                           */
+    
+
+
+
+.contenedor{
+    background-image: url(https://www.rois.gal/wp-content/uploads/Ruta_Penicias-1300x728.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    margin-top: 12%;
+    min-height: 400px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contenidoizq{
+    width: 30%;
+}
+
+
+.contenidoizq h2{
+    font-size: 55px;
+    font-family: 'Allura', cursive;
+    color: white;
+    opacity: 60%;
+    letter-spacing: 0.1em;
+}
+
+
+.contenidoder{
+    width: 55%;
+  
+}
+.contenidoder p{
+    padding-left: 45px;
+    border-left: solid 5px white;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+
+}
+
+
+
+/*             arreglo seccion                     */
+
+
+
+ .contenedor2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+    padding-top: 12%;
+}
+
+.xeral-2{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+
+}
+
+.contido2-izq{
+    background-image: url('../img/penicias.jpg');
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    display: flex;
+    min-height: 250px;
+    width: 50%;
+    align-items: flex-end;
+    
+}
+
+.verde {
+    width: 100%;
+    display: flex;
+    height: 20%;
+    background-color: #6e9e30b5;
+    align-items: center;
+    justify-content: center;
+}
+
+.verde-v1 {
+    width: 100%;
+    display: flex;
+    height: 20%;
+    background-color: #6e9e30b5;
+    align-items: center;
+    justify-content: center;
+}
+
+.verde-v2 {
+    width: 100%;
+    display: flex;
+    height: 20%;
+    background-color: #6e9e30b5;
+    align-items: center;
+    justify-content: center;
+}
+
+.verde-v3 {
+    width: 100%;
+    display: flex;
+    height: 20%;
+    background-color: #6e9e30b5;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.contido2-der{
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+    gap: 8px;
+
+}
+
+.contido2-der-sup{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.peregrin{
+
+    background-image: url('../img/peregrino_Padrón.jpg');
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    display: flex;
+    min-height: 250px;
+    width: 49%;
+    align-items: flex-end;
+
+}
+
+.hermita{
+
+    background-image: url('../img/ermida.jpg');
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    display: flex;
+    min-height: 250px;
+    width: 49%;
+    align-items: flex-end;
+
+}
+
+.contido2-der-inf{
+    background-image: url('../img/Medo_13.JPG');
+    background-attachment: scroll;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    min-height: 175px;
+    width: 100%;
+    align-items: flex-end;
+}
+
+
+/*                                                           */
+
+.contenedor3{
+    background-image: url(../img/hoja.jpg);
+    background-attachment: fixed;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.contenedor3 a{
+    font-size: 55px;
+    font-family: 'Allura', cursive;
+    color: white;
+    opacity: 75%;
+    letter-spacing: 0.1em;
+}
+.contenido3{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.fondo{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    opacity: 50%;
+    position: absolute;
+}
+
+
+.contenedor4{
+    margin-top: 50px;
+}
+.contenido4A{
+    display: flex;
+    justify-content: center;
+}
+.contenido4B{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 150px;
+}
+.contenido4B img{
+    max-height: 300px;
+}
+
+
+/*                                          */
+
+/*               FOOTER              */
+
+
+
+
+
+
+footer{
+    background-color: #6E9E30;
+    margin-top: 50px;
+    margin-top: 100px;
+}
+.contenedor-pe{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.contenedor-pe img{
+    max-width: 170px;
+    object-fit: contain;
+    margin-top: 50px;
+}
+
+.menu-footer a{
+    text-decoration: none;
+}
+
+.menu-footer  {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    
+}
+.contenedor-pe1{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.contenedor-pe1 img{
+    max-height: 120px;
+    object-fit: contain;
+}
+
+.contenido6{
+    display: flex;
+    align-items: center;
+}
+.img{
+    height: 130px;
+}
+
+.contenido6 img{
+    max-width: 50px;
+}
+.contenido6A{
+    display: flex;
+    align-items: center;
+}
+.contenido6A img{
+    max-width: 50px;
+}
+.contenido6A a img:nth-child(2){
+    max-width: 46px;
+}
+.logo1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*              Medias                */
+
+@media(max-width:1200px){
+
+    .fraseinicio{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .fondofrase{
+        text-align: center;
+        height: auto;
+    }
+
+    .menu-principal{
+        height: auto;
+    }
+
+    .menu-principal ul{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .xeral-2{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        width: 90%;
+    }
+
+    .contido2-izq{
+        width: 100%;
+        min-height: 660px;
+        background-size: contain;
+        background-position: bottom;
+
+    }
+
+    .contido2-der{
+        width: 100%;
+        gap: 35px;
+    }
+
+    .contido2-der-sup{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        width: 100%;
+    }
+
+    .peregrin{
+        width: 100%;
+        min-height: 660px;
+        background-size: contain;
+        background-position: bottom;
+    }
+
+    .hermita{
+        width: 100%;
+        min-height: 660px;
+        background-size: contain;
+        background-position: bottom;
+
+
+    }
+
+    .contido2-der-inf{
+       min-height: 324px;
+       background-size: cover;
+
+    }
+
+    .contenido3{
+        text-align: center;
+    }
+
+   
+}
+
+@media(max-width:870px){
+
+    .contenedor{
+        flex-direction: column;
+    }
+
+    .contenidoizq{
+        text-align: center;
+    }
+    .contenido4A{
+        text-align: center;
+    }
+
+    .contenido4B{
+        flex-direction: column;
+        align-items: center;
+        gap: 55px;
+    }
+
+        /* medias pe de paxina */
+
+        .contenedor-pe{
+            flex-direction: column;
+            align-items: center;
+            gap: 0px;
+        }
+    
+        .menu-footer{
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+    
+        .contenedor-pe1{
+            flex-direction: column;
+        }
+    
+        /*                                       */
+}
+

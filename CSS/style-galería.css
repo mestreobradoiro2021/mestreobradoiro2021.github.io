@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:wght@100;200;300&family=Teko:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{ background-color: white;
+    opacity: 53%;
+    border-radius: 12px;
+    font-size: 60px;
+    font-family: 'Allura', cursive;
+    color: #6e9e30b5;
+}
+
+h2{
+    font-size: 55px;
+    font-family: 'Allura', cursive;
+    color: #6E9E30;
+
+}
+h3{
+    font-size: 45px;
+    font-family: 'Allura', cursive;
+}
+
+h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 1.8em;
+    
+}
+
+a{  text-decoration: none;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+
+
+}
+
+
+header{
+    background-image: url('../img/agua.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50%;
+    min-height: 665px;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+nav ul li{
+    display: inline-block;
+}
+
+.menu-superior{
+    display: flex;
+    width: 100%;
+    background-color:#6e9e3069;
+    height: 100px;
+
+}
+
+.logo{
+    width: 20%;
+}
+
+.loguito{
+    width: 205px;
+    position: relative;
+    bottom: 20px;
+}
+
+.idiomas{
+    width: 80%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.idiomas nav ul{
+    display: flex;
+    gap: 12px;
+}
+
+.Eslogan{
+    display: flex;
+    width: 50%;
+    justify-content: end;
+}
+
+.menu-inferior{
+    background-color: #6E9E30;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-inferior nav ul{
+    display: flex;
+    gap: 55px;
+    justify-content: center;
+    align-items: center;
+}
+
+.titular{
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 80px;
+}
+
+.container0{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+}
+
+.xeral{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.izq{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.subtitulo{
+    border-left: solid 5px #6E9E30;
+    padding-left: 30px;
+}
+
+.derecha{
+    width: 35%;
+}
+.texto{
+    text-align: justify;
+}
+
+.mapapadron img{
+     width: 100%;
+}
+
+
+.container1{
+ display: flex;
+ padding-top: 12%;
+ justify-content: center;
+    
+}
+
+.xeral1{
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.izq1{
+    width: 25%;
+    z-index: 1;
+}
+
+.escudopadron img{
+    max-width: 370px;
+}
+
+
+.derecha1{
+    width: 75%;
+}
+
+
+.textopadron{
+   
+    text-align: justify;
+    padding: 45px;
+}
+
+.caja1{
+    background-color: #6e9e30d4;
+    color: white;
+    display: flex;
+    border-radius: 12px;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    padding-top: 12%;
+}
+
+.xeral2{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.derecha2{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.subtitulo2{
+    border-left: solid 5px #6E9E30;
+    padding-left:15px;
+}
+
+.texto2{
+    text-align: justify;
+}
+
+.izq2{
+    width: 35%;
+}
+
+.mapadodro img{
+    width: 100%;
+}
+
+.container3{
+ display: flex;
+ padding-top: 12%;
+ justify-content: center;
+       
+}
+   
+.xeral3{
+     width: 80%;
+     display: flex;
+     align-items: center;
+}
+
+.izq3{
+    width: 75%;
+}
+
+.derecha3{
+    width: 25%;
+    z-index: 1;
+}
+
+.caja3{
+    background-color: #6e9e30d4;
+    color: white;
+    display: flex;
+    border-radius: 12px;
+}
+
+.textododro{
+    text-align: justify;
+    padding: 45px;
+
+}
+
+.escudododro{
+    position: relative;
+    right: 35px;
+}
+
+.escudododro img{
+    max-width: 370px;
+}
+
+
+.container4{
+    display: flex;
+    justify-content: center;
+    padding-top: 12%;
+  
+}
+
+.xeral4{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.izq4{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.subtitulo4{
+    border-left: solid 5px #6E9E30;
+    padding-left: 15px;
+}
+
+.derecha4{
+    width: 35%;
+}
+
+.texto4{
+    text-align: justify;
+}
+
+.maparois img{
+    width: 100%;
+}
+
+
+.container5{
+    display: flex;
+    padding-top: 12%;
+    justify-content: center;
+       
+   }
+   
+   .xeral5{
+       width: 80%;
+       display: flex;
+       align-items: center;
+   }
+   
+   .izq5{
+       width: 25%;
+       z-index: 1;
+   }
+   
+   .escudorois img{
+       max-width: 370px;
+   }
+   
+   
+   .derecha5{
+       width: 75%;
+   }
+   
+   
+   .textorois{
+      
+       text-align: justify;
+       padding: 45px;
+   }
+   
+   .caja5{
+       background-color: #6e9e30d4;
+       color: white;
+       display: flex;
+       border-radius: 12px;
+   }
+   
+.escudorois img{
+  max-width: 350px;
+}
+
+.textorois{
+  text-align: justify;
+  padding: 45px;
+}
+
+
+
+/*                                                    */
+
+
+/*           pe de paxina                  */
+
+
+
+footer{
+    background-color: #6E9E30;
+    margin-top: 50px;
+    margin-top: 100px;
+}
+.contenedor-pe{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.contenedor-pe img{
+    max-width: 170px;
+    object-fit: contain;
+    margin-top: 50px;
+}
+
+
+
+.menu-footer  {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    
+}
+.contenedor-pe1{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.contenedor-pe1 img{
+    max-height: 120px;
+    object-fit: contain;
+}
+
+.contenido6{
+    display: flex;
+    align-items: center;
+}
+.img{
+    height: 130px;
+}
+
+.contenido6 img{
+    max-width: 50px;
+}
+.contenido6A{
+    display: flex;
+    align-items: center;
+}
+.contenido6A img{
+    max-width: 50px;
+}
+.contenido6A a img:nth-child(2){
+    max-width: 46px;
+}
+.logo1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

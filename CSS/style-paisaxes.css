@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:wght@100;200;300&family=Teko:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*          estilos , talla de tipografia  e tallas de imaxes          */
+
+h1{
+    font-size: 60px;
+    font-family: 'Allura', cursive;
+    color: #6e9e30b5;
+}
+
+
+h2{
+    font-size: 55px;
+    font-family: 'Allura', cursive;
+    color: #6E9E30;
+}
+
+
+h3{
+    font-size: 45px;
+    font-family: 'Allura', cursive;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+
+}
+
+a{  text-decoration: none;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+
+
+}
+
+.lg-terra{
+    width: 205px;
+    position: relative;
+    bottom: 20px;
+}
+
+.playa{
+    width: 100%;
+}
+
+.recreativa{
+    width: 100%;
+}
+
+.botanico{
+    width: 100%;
+}
+
+.boton a{
+    background-color: #6E9E30;
+    padding: 12px;
+    border-radius: 30px;
+}
+
+.f1{
+    width: 100%;
+}
+.f2{
+    width: 100%;
+}
+.f3{
+    width: 100%;
+}
+.f4{
+    width: 100%;
+}
+
+.braninhas{
+    width: 100%;
+}
+
+.laiño-1{
+    width: 100%;
+}
+
+.laiño-2{
+    width: 100%;
+}
+
+.laiño-3{
+    width: 100%;
+}
+
+.mapa-brañas{
+    width: 30%;
+}
+
+.mapa-brañas-2{
+    width: 30%;
+}
+
+.mapa-brañas-3{
+    width: 30%;
+}
+
+.foto-fondo{
+    background-image: url("../img/head-natureza.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 45%;
+     min-height: 900px;
+}
+
+/*                                   */
+
+
+.logo-terra{
+    width: 20%;
+
+}
+.idiomas{
+    width: 80%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.menu2{
+    background-color: #6e9e3069;
+	display: flex;
+    width: 100%;
+    height: 100px;
+}
+
+.menu2 ul{
+  display: flex;
+  flex-direction: row;
+  gap:25px;
+}
+
+
+
+.menu2 ul li {
+    list-style:none;
+    
+}
+
+ul li a img{
+    height: 20px;
+}
+
+header{
+    background-image: url('../img/paxarinhos-padron.jpg');
+    min-height: 590px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+
+}
+
+    
+.imgheader{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+.logo img{
+    height: 200px;
+    display: flex;
+    align-content: center;
+}
+
+.fraseinicio{
+    display: flex;
+    justify-content: end;
+    width: 46%;
+    
+}
+
+.fondofrase{
+    background-color: white;
+    opacity: 69%;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 490px;
+    border-radius: 12px;
+    align-items: center;
+}
+
+.menu-principal{
+    display: flex;
+    background-color: #6E9E30;
+    justify-content: center;
+    height: 50px;
+
+
+}
+
+.menu-principal ul{
+     display: flex;
+     align-items: center;
+     gap:60px;
+}
+
+.menu-principal ul li {
+    list-style:none;
+}
+
+.general-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 110px;
+    gap: 80px;
+    padding-bottom: 100px;
+}
+
+.general-2{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.general-3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.subtitulo{
+    border-left: solid 5px #6E9E30;
+    padding-left: 10px;
+}
+.contenido-izq{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 45%;
+}
+
+.contenido-derecha{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 45%;
+
+}
+.texto-1{
+    text-align: justify;
+    line-height: 1.8em;
+}
+
+.texto-2{
+    text-align: justify;
+    line-height: 1.8em;
+}
+
+.general-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    gap: 80px;
+}
+
+.general-5{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.contenido-superior{
+    display: flex;
+    justify-content: space-between;
+}
+
+.subtitulo-1{
+    border-left: solid 5px #6E9E30;
+    padding-left: 20px;
+}
+
+.contenido-izq-1{
+    width: 45%;
+}
+
+.contenido-derecha-1{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.texto-3{
+    text-align: justify;
+    line-height: 1.8em;
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.contenido-inferior{
+    display: flex;
+    background-color: #c1ff5f61;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0px 30px;
+}
+
+.flor-1{
+    width: 26%;
+}
+
+.flor-2{
+    width: 26%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.flor-3{
+    width: 26%;
+}
+
+.general-6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    gap: 80px;
+}
+
+.general-superior-1{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenido-izq-2{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contenido-derecha-2{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.subtitulo-2{
+    border-left: solid 5px #6E9E30;
+    padding-left: 20px;
+}
+
+.texto-4{
+    text-align: justify;
+    line-height: 1.8em;
+}
+
+.poema{
+    text-align: justify;
+    line-height: 1.8em;
+
+}
+
+.general-inferior-1{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/*            pe de páxina                        */
+
+
+
+footer{
+    background-color: #6E9E30;
+    margin-top: 50px;
+    
+}
+.contenedor-pe{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.contenedor-pe img{
+    max-width: 170px;
+    object-fit: contain;
+    margin-top: 50px;
+}
+
+.menu-footer  {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    
+}
+.contenedor-pe1{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.contenedor-pe1 img{
+    max-height: 120px;
+    object-fit: contain;
+}
+
+.contenido6{
+    display: flex;
+    align-items: center;
+}
+.img{
+    height: 130px;
+}
+
+.contenido6 img{
+    max-width: 50px;
+}
+.contenido6A{
+    display: flex;
+    align-items: center;
+}
+.contenido6A img{
+    max-width: 50px;
+}
+.contenido6A a img:nth-child(2){
+    max-width: 46px;
+}
+.logo1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*                                                           */

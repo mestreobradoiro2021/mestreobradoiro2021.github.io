@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:wght@100;200;300&family=Teko:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/*          estilos,talla,tipografía e talla de imaxes            */
+
+h2{
+    font-family: 'Teko', sans-serif;
+    font-size: 45px;
+    letter-spacing: 0.2em;
+}
+
+h3{
+    font-family: 'Teko', sans-serif;
+    font-size: 40px;
+    letter-spacing: 0.2em;
+}
+
+p{
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+    letter-spacing: 0.2em;
+}
+
+.foto-1{
+    max-width: 450px;
+}
+
+.foto-2{
+    max-width: 450px;
+}
+
+.derecha a{
+    text-decoration: none;
+    font-family: 'Teko', sans-serif;
+    background-color: #C5BA9F;
+    padding: 15px;
+    border-radius: 15px;
+    color: black;
+    font-size: 30px;
+    letter-spacing: 0.2em;
+}
+/*                                                 */
+
+
+.lg-terra{
+    width: 278px;
+    position: relative;
+    bottom: 20px;
+}
+
+.idiomas a{
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.logo-terra{
+    width: 20%;
+
+}
+.idiomas{
+    width: 80%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.menu2{
+    background-color: #6e9e30c9;
+	display: flex;
+    width: 100%;
+    height: 144px;
+}
+.menu2 ul{
+  display: flex;
+    flex-direction: row;
+    gap:25px;
+}
+.menu2 a{
+    color: rgb(255, 255, 255);
+    opacity: 100%;
+}
+
+.menu2 ul li {
+    list-style:none;
+    
+}
+
+.papel-fondo{
+    background-image: url("../img/papel2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 45%;
+     min-height: 900px;
+}
+
+
+
+.contido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 100px;
+}
+
+.general-1{
+    display: flex;
+    justify-content: end
+}
+
+.contido-1{
+    padding-top: 100px;
+    width: 96%;
+}
+
+.general-2{
+    display: flex;
+    justify-content: center;
+}
+
+.contido-2{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.general-3{
+    display: flex;
+    justify-content: center;
+}
+
+.contido-3{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 100px;
+    text-align: justify;
+}
+
+.general-4{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.contido-4{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 100px;
+    text-align: justify;
+}
+
+.fotos{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.izq{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    align-items: center;
+    gap: 35px;
+}
+.derecha{
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column
+}
+
+.boton{
+    width: 300px;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+/*             PÉ DE PÁXINA                 */
+
+footer{
+    background-color: #6E9E30;
+    
+    
+}
+.contenedor-pe{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.contenedor-pe img{
+    max-width: 170px;
+    object-fit: contain;
+    margin-top: 50px;
+}
+
+.menu-footer a{
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.menu-footer  {
+    
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    
+}
+.contenedor-pe1{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.contenedor-pe1 img{
+    max-height: 120px;
+    object-fit: contain;
+}
+
+.contenido6{
+    display: flex;
+    align-items: center;
+}
+.img{
+    height: 130px;
+}
+
+.contenido6 img{
+    max-width: 50px;
+}
+.contenido6A{
+    display: flex;
+    align-items: center;
+}
+.contenido6A img{
+    max-width: 50px;
+}
+.contenido6A a img:nth-child(2){
+    max-width: 46px;
+}
+.logo1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:wght@100;200;300&family=Teko:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*           cambios de estado e size de texto/imaxes      */
+
+h1{
+    
+    font-size: 60px;
+    color: #6e9e30b5;
+    font-family: 'Allura', cursive;
+     
+}
+
+h2{
+    font-family: 'Allura', cursive;
+    font-size: 55px;
+    color: #6E9E30;
+}
+
+
+h3{
+    font-family: 'Allura', cursive;
+    font-size: 45px;
+}
+
+
+p{
+    font-family:'Montserrat', sans-serif; 
+    font-size: 20px;
+}
+
+
+a{
+    font-family:'Montserrat', sans-serif; 
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.frase a:hover{
+    font-size: 30px;
+    width: 100%;
+}
+
+.frase-back:hover{
+    background-color:  #2dc6658f;
+    position: absolute;
+    height: 287px;
+    width: 450px;
+}
+
+/*                                                                   */
+
+
+header{
+    background-image: url('../img/head-santiaguino.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50%;
+    min-height: 665px;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav ul li a{
+    text-decoration: none;
+
+ 
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+.menu-superior{
+    display: flex;
+    width: 100%;
+    background-color: #6e9e3069;;
+    height: 100px;
+
+}
+
+.logo{
+    width: 20%;
+}
+
+.loguito{
+    width: 205px;
+    position: relative;
+    bottom: 20px;
+}
+
+.idiomas{
+    width: 80%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.idiomas nav ul{
+    display: flex;
+    gap: 12px;
+}
+
+.Eslogan{
+    display: flex;
+    width: 40%;
+    justify-content: end;
+}
+
+.Eslogan h1{
+    background-color: white;
+    opacity: 69%;
+    border-radius: 12px;
+    padding: 17px;
+}
+
+
+.menu-inferior{
+    background-color: #6E9E30;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-inferior nav ul{
+    display: flex;
+    gap: 55px;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-comunidad{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.titular{
+    width: 100%;
+    text-align: center;
+    font-size: 45px;
+    padding-top: 80px;
+}
+
+.fondo-info{
+    background-image: url('../img/foto-fondo-toxo.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.opacidade{
+    background-color: #00000087;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+.información{
+    color: white;
+    font-size: 22px;
+    width: 50%;
+    text-align: justify;
+    text-align-last: center;
+    line-height: 1.8em;
+    padding: 80px 0;
+}
+
+
+.info-concellos{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+.titular-2{
+    text-align: center;
+    padding-top: 80px;
+
+}
+
+
+.fondo{
+   display: flex;
+    width: 95%;
+    height: 500px;
+    justify-content: space-around;
+}
+
+.container-concellos{
+    display: flex;
+    justify-content: center;
+}
+
+.contenido{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.frase-back{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    height: 396px;
+    width: 670px;
+}
+
+.frase-back-1{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    height: 396px;
+    width: 420px;
+}
+
+.frase-back-1:hover{
+    background-color:  #2dc6658f;
+    position: absolute;
+    height: 287px;
+    width: 420px;
+}
+
+.frase-back-2{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    height: 285px;
+    width: 400px;
+}
+
+.frase-back-2:hover{
+    background-color:  #2dc6658f;
+    position: absolute;
+    height: 285px;
+    width: 400px;
+}
+
+.frase{
+    position: absolute;
+    text-align: center;
+    color: #F4F7EA;
+    font-size: 25px;
+    z-index: 99;
+}
+
+.frase a{
+    text-decoration: none;
+
+
+}
+
+.foto1{
+    max-width: 450px;
+}
+
+.foto3{
+    max-width: 419px;
+}
+
+.terriña{
+    background-image: url('../img/terra.png');
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: 50%;
+    min-height: 800px;
+    background-repeat: no-repeat;
+}
+
+
+
+
+/*                     pe de páxina                               */
+
+
+footer{
+    background-color: #6E9E30;
+    margin-top: 50px;
+    
+}
+.contenedor-pe{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.contenedor-pe img{
+    max-width: 170px;
+    object-fit: contain;
+    margin-top: 50px;
+}
+
+.menu-footer a{
+    text-decoration: none;
+}
+
+.menu-footer  {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    
+}
+.contenedor-pe1{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.contenedor-pe1 img{
+    max-height: 120px;
+    object-fit: contain;
+}
+
+.contenido6{
+    display: flex;
+    align-items: center;
+}
+.img{
+    height: 130px;
+}
+
+.contenido6 img{
+    max-width: 50px;
+}
+.contenido6A{
+    display: flex;
+    align-items: center;
+}
+.contenido6A img{
+    max-width: 50px;
+}
+
+.contenido6A a img:nth-child(2){
+    max-width: 46px;
+}
+
+.logo1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*                                                                 */
+
+@media (max-width: 1200px){
+    .menu-inferior{
+        height: 20%;
+    }
+
+    .menu-inferior nav ul{
+        flex-wrap: wrap;
+    }
+
+    .fondo{
+        flex-direction: column;
+        gap: 50px;
+        height: 50%;
+    }
+
+    .frase-back:hover{
+        height: 256px;
+        width: 400px;
+    }
+
+    .foto1{
+        max-width: 400px;
+    }
+
+    .frase-back-1:hover{
+        height: 273px;
+        width: 400px;
+    }
+
+    .foto3{
+        max-width: 400px;
+    }
+
+    .menu-footer{
+        flex-wrap: wrap;
+        gap: 20px;
+        padding-top: 15px;
+    }
+
+    .contenedor-pe1{
+        flex-direction: column;
+    }
+}
+
+@media (max-width:500px){
+    .menu-inferior{
+        height: 50%;
+    }
+
+    .Eslogan{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .frase-back{
+        height: 256px;
+        width: 400px;
+    }
+
+    .contenedor-pe{
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+}

@@ -1,0 +1,1019 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:wght@100;200;300&family=Teko:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*           cambios de estado e size de texto/imaxes      */
+
+h1{
+    
+    font-size: 60px;
+    color: #6e9e30b5;
+    font-family: 'Allura', cursive;
+     
+}
+
+h2{
+    font-family: 'Allura', cursive;
+    font-size: 55px;
+    color: #6E9E30;
+}
+
+
+h3{
+    font-family: 'Allura', cursive;
+    font-size: 45px;
+    
+}
+
+
+p{
+    font-family:'Montserrat', sans-serif; 
+    font-size: 20px;
+    
+}
+
+
+a{
+    font-family:'Montserrat', sans-serif; 
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+iframe{
+    width: 100%;
+}
+
+
+header{
+    background-image: url('../img/escaleras.jpg');
+    height: 550px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: 37%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+nav ul li a{
+    text-decoration: none;
+
+ 
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+.menu-superior{
+    display: flex;
+    width: 100%;
+    background-color: #6e9e3069;;
+    height: 100px;
+
+}
+
+.logo{
+    width: 20%;
+}
+
+.loguito{
+    width: 205px;
+    position: relative;
+    bottom: 20px;
+}
+
+.idiomas{
+    width: 80%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.idiomas nav ul{
+    display: flex;
+    gap: 12px;
+}
+
+.mover{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    padding-top: 60px;
+}
+
+.Eslogan{
+    display: flex;
+    width: 60%;
+    text-align: center;
+}
+
+.Eslogan h1{
+    background-color: white;
+    opacity: 69%;
+    border-radius: 12px;
+    padding: 5px;
+    width: 77%;
+}
+
+
+.menu-inferior{
+    background-color: #6E9E30;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-inferior nav ul{
+    display: flex;
+    gap: 55px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logos{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    
+    border: none;
+    height: 48px;
+    background-color: #6E9E30;
+    border-radius: 15px;
+    align-items: center;
+    padding: 10px;
+}
+
+.button:hover{
+    background-color: #3C7559;
+}
+
+.centrado0{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+}
+
+.titulo{
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.contenedor0{
+    width: 80%;
+    display: flex;
+    justify-content: center;   
+}
+
+.contenido0-izq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    gap: 30px;
+}
+
+.titulo0{
+    display: flex;
+    justify-content: center;
+    background-color: #6e9e3099;
+    padding: 6px;
+    width: 90%;
+    color: white;
+    
+}
+
+.texto0{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    gap: 20px;
+    width: 80%;
+}
+
+.cuadro0{
+    width: 82%;
+    display: flex;
+    justify-content: center;
+    background-color: #6e9e3099;
+    color: white;
+    padding: 5%;
+    gap: 15px;
+}
+
+.width{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.width2{
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contenido0-der img{
+    width: 100%;
+}
+
+.pe-foto p{
+    font-size: 12px;
+}
+
+.centrado2{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.contenedor1{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    gap: 25px;
+}
+
+.contenido1-izq{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 30px;
+}
+
+.contenedor-castro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.titulo-castro{
+    background-color: #6E9E30;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    
+}
+
+.texto-castro{
+    text-align: justify;
+    height: 215px;
+}
+
+.contenido1-der{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 30px;
+}
+
+.contenedor-penicias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.titulo-penicias{
+    background-color: #6E9E30;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    
+}
+
+.texto-penicias{
+    text-align: justify;
+    height: 215px;
+}
+
+
+
+.contenedor2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%; 
+}
+
+.contenido2-izq{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 30px;
+}
+
+.img2-izq img{
+    max-width: 100%;
+}
+
+.contenedor-avelan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.titulo-avelan{
+    background-color: #6E9E30;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.texto-avelan{
+    text-align: justify;
+    height: 200px;
+}
+
+.contenido2-centro{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 30px;
+}
+
+.img2-centro img{
+    width: 100%;
+}
+
+.contenedor-paxareira{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.titulo-paxareira{
+    background-color: #6E9E30;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.texto-paxareira{
+    text-align: justify;
+    height: 200px;
+}
+
+.contenido2-der{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 30px;
+}
+
+.img2-der img{
+    width: 100%;
+}
+
+.contenedor-lestrove{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.titulo-lestrove{
+    background-color: #6E9E30;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.texto-lestrove{
+    text-align: justify;
+    height: 200px;
+}
+
+.contenedor3{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    gap: 25px;
+}
+
+.contenido3-izq{
+    display: flex;
+    flex-direction: column;
+    width: 560px;
+    gap: 30px;
+}
+
+.contenedor-pedronía{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.titulo-pedronía{
+    background-color: #6E9E30;
+    width: 560px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.texto-pedronía{
+    text-align: justify;
+    height: 260px;
+}
+
+.contenido3-der{
+    display: flex;
+    flex-direction: column;
+    width: 560px;
+    gap: 30px;
+}
+
+.contenedor-pemento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.titulo-pemento{
+    background-color: #6E9E30;
+    width: 560px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.texto-pemento{
+    text-align: justify;
+    height: 260px;
+}
+
+
+
+.contenedor4{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    gap: 25px;
+}
+
+.contenido4-izq{
+    display: flex;
+    flex-direction: column;
+    width: 560px;
+    gap: 30px;
+}
+
+.contenedor-cela{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.titulo-cela{
+    background-color: #6E9E30;
+    width: 560px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+} 
+
+.texto-cela{
+    text-align: justify;
+    height: 150px;
+}
+
+.contenido4-der{
+    display: flex;
+    flex-direction: column;
+    width: 560px;
+    gap: 30px;
+}
+
+.contenedor-rosaliano{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.titulo-rosaliano{
+    background-color: #6E9E30;
+    width: 560px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+} 
+
+.texto-rosaliano{
+    text-align: justify;
+    height: 150px;
+}
+
+
+.contenedor5{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    gap: 25px;
+}
+
+.contenido5-izq{
+    display: flex;
+    flex-direction: column;
+    width: 560px;
+    gap: 30px;
+}
+
+.contenedor-cela1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.titulo-cela1{
+    background-color: #6E9E30;
+    width: 560px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.texto-cela1{
+    text-align: justify;
+    height: 150px;
+}
+
+.contenido5-der{
+    display: flex;
+    flex-direction: column;
+    width: 560px;
+    gap: 30px;
+}
+
+.contenedor-cela2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.titulo-cela2{
+    background-color: #6E9E30;
+    width: 560px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.texto-cela2{
+    text-align: justify;
+    height: 150px;
+}
+
+.contenedor6{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    gap: 25px;
+}
+
+.contenido6-izq{
+    display: flex;
+    flex-direction: column;
+    width: 560px;
+    gap: 30px;
+}
+
+.contenedor-cela3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.titulo-cela3{
+    background-color: #6E9E30;
+    width: 560px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.texto-cela3{
+    text-align: justify;
+    height: 150px;
+}
+
+.contenido6-der{
+    display: flex;
+    flex-direction: column;
+    width: 560px;
+    gap: 30px;
+}
+
+.contenedor-badin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.titulo-bandin{
+    background-color: #6E9E30;
+    width: 560px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    height: 115px;
+    align-items: center;
+}
+
+.texto-bandin{
+    text-align: justify;
+    height: 150px;
+}
+
+.contenedor7{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    gap: 25px;
+}
+
+.contenido7-izq{
+    display: flex;
+    flex-direction: column;
+    width: 560px;
+    gap: 30px;
+}
+
+.contenedor-xacobeo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.titulo-xacobeo{
+    background-color: #6E9E30;
+    width: 560px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    height: 115px;
+    align-items: center;
+}
+
+.texto-xacobeo{
+    text-align: justify;
+    height: 275px;
+}
+
+.contenido7-der{
+    display: flex;
+    flex-direction: column;
+    width: 560px;
+    gap: 30px;
+}
+
+.contenedor-literario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.titulo-literario{
+    background-color: #6E9E30;
+    width: 560px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    height: 115px;
+    align-items: center;
+}
+
+.texto-literario{
+    text-align: justify;
+    height: 275px;
+}
+
+/*Se repiten los mismos valores en todas las clases, pero lo hice para poder aclararme con que llevaba cada cosa, ya que algunos valores cambian*/
+
+
+.end{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding-top: 75px;
+}
+
+.rosas{
+    width: 100%;
+}
+
+
+footer{
+    background-color: #6E9E30;
+    margin-top: 50px;
+    
+}
+.contenedor-pe{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.contenedor-pe img{
+    max-width: 170px;
+    object-fit: contain;
+    margin-top: 50px;
+}
+
+.menu-footer a{
+    text-decoration: none;
+
+
+    
+}
+
+.menu-footer  {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    
+}
+.contenedor-pe1{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.contenedor-pe1 img{
+    max-height: 120px;
+    object-fit: contain;
+}
+
+.contenido6{
+    display: flex;
+    align-items: center;
+}
+.img{
+    height: 130px;
+}
+
+.contenido6 img{
+    max-width: 50px;
+}
+.contenido6A{
+    display: flex;
+    align-items: center;
+}
+.contenido6A img{
+    max-width: 50px;
+}
+
+.contenido6A a img:nth-child(2){
+    max-width: 46px;
+}
+
+.logo1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+@media (max-width:1200px){
+    .menu-inferior{
+        height: 20%;
+    }
+
+    .menu-inferior nav ul{
+        flex-wrap: wrap;
+    }
+
+    .mover{
+        padding-top: 0;
+        width: 44%;
+    }
+
+    .Eslogan{
+        width: 75%;
+    }
+
+    .Eslogan h1{
+        width: 100%;
+    }
+
+    .contenedor0{
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .contenido0-izq{
+        width: 100%;
+        gap: 50px;
+    }
+
+    .cuadro0{
+        padding: 2%;
+    }
+
+    .contenedor1{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenido1-izq, .contenido1-der{
+        width: 80%;
+    }
+
+    .contenedor2{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .contenido2-izq, .contenido2-centro, .contenido2-der{
+        width: 80%;
+    }
+
+    .texto-avelan, .texto-paxareira, .texto-lestrove{
+        height: 110px;
+    }
+
+    .contenedor3, .contenedor4, .contenedor5, .contenedor6, .contenedor7{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .texto-pedronía, .texto-pemento{
+        height: 175px;
+    }
+
+    .contenedor-pe{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-footer{
+        flex-wrap: wrap;
+        gap: 20px;
+        padding-top: 15px;
+    }
+
+    .contenedor-pe1{
+        flex-direction: column;
+    }
+}
+
+@media (max-width:500px){
+
+    .menu-inferior{
+        height: 50%;
+    }
+
+    .mover{
+        width: 100%;
+    }
+    
+    .Eslogan{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .Eslogan h1{
+        width: 80%;
+    }
+
+    .titulo{
+        align-items: center;
+        text-align: center;
+    }
+
+    
+
+    .titulo0{
+        width: 100%;
+        text-align: center;
+    }
+
+    .texto0{
+        width: 100%;
+    }
+
+    .cuadro0{
+        width: 100%;
+    }
+
+    .width{
+        width: 55%;
+        gap: 22px;
+    }
+
+    .width2{
+        width: 70%;
+        gap: 14px;
+    }
+
+    .contenido1-izq, .contenido1-der{
+        width: 100%;
+    }
+
+    .contenido2-izq, .contenido2-centro, .contenido2-der{
+        width: 100%;
+    }
+
+    .texto-lestrove{
+        height: 140px;
+    }
+
+    .contenido3-izq, .contenido3-der, .contenido4-izq, .contenido4-der, .contenido5-izq, .contenido5-der, .contenido6-izq, .contenido6-der, .contenido7-izq, .contenido7-der{
+        width: 100%;
+    }
+
+    .titulo-pedronía, .titulo-pemento, .titulo-cela, .titulo-rosaliano, .titulo-cela1, .titulo-cela2, .titulo-cela3, .titulo-bandin, .titulo-xacobeo, .titulo-literario{
+        width: 100%;
+        text-align: center;
+    }
+
+    .img3-der img{
+        width: 100%;
+    }
+
+    .img4-izq img{
+        width: 100%;
+    }
+
+    .img4-der img{
+        width: 100%;
+    }
+
+    .img5-izq img{
+        width: 100%;
+    }
+
+    .img5-der img{
+        width: 100%;
+    }
+
+    .img6-izq img{
+        width: 100%;
+    }
+
+    .img7-izq img{
+        width: 100%;
+    }
+
+    .texto-xacobeo{
+        height: 150px;
+    }
+
+    .img7-der img{
+        width: 100%;
+    }
+
+    .texto-literario{
+        height: 266px;
+    }
+
+}

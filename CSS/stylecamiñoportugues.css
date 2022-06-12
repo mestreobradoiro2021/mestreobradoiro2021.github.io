@@ -1,0 +1,684 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:wght@100;200;300&family=Teko:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    background-image: url('../img/foto_banner.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 98%;
+    min-height: 665px;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+.menu-superior{
+    display: flex;
+    width: 100%;
+    background-color:#96d93f75;
+    height: 100px;
+
+}
+
+.logo{
+    width: 20%;
+}
+
+.loguito{
+    width: 205px;
+    position: relative;
+    bottom: 20px;
+}
+
+.idiomas{
+    width: 80%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.idiomas nav ul{
+    display: flex;
+    gap: 12px;
+}
+
+.contenedor-slogan{
+    display: flex;
+    justify-content: center;
+}
+
+.Eslogan{
+    display: flex;
+    width: 41%;
+    background-color: #ffffffd1;
+    padding: 20px;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+.Eslogan h1{
+    font-size: 65px;
+    font-family: 'Allura', cursive;
+    color: #6e9e30b5;
+    
+}
+
+.menu-inferior{
+    background-color: #6E9E30;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-inferior nav ul{
+    display: flex;
+    gap: 55px;
+    justify-content: center;
+    align-items: center;
+}
+
+.titular{
+    width: 100%;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.titular h2{
+    font-size: 80px;
+    font-family: 'Allura', cursive;
+    color: #223152;
+    font-weight: 300;
+}
+
+.subtitular{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.subtitular h4{
+    font-size: 33px;
+    font-family: 'Allura', cursive;
+    color: #223152;
+    font-weight: 300;
+}
+
+.mapa{
+    background-image: url('../img/padron.jpg');
+}
+
+.mapa img{
+    width: 100%;
+}
+
+.contenido0{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.contenido0v1{
+    width: 80%;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.texto0{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 1.8em;
+    text-align: justify;
+}
+
+.foto{
+    width: 35%;
+}
+
+.espoloncito{
+    width: 100%;
+}
+
+.centrado{
+    background-image: url('../img/botanico.jpg');
+    min-height: 450px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.centradov1{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.verde{
+    background-color: #79943dd4;
+    min-height: 250px;
+    width: 65%;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.texto1{
+    font-size: 20px;
+    width: 74%;
+    line-height: 1.8em;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    font-weight: 200;
+    color: white;
+}
+
+.boton{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    padding-right: 10px;
+}
+
+.boton1{
+    padding-top: 14px;
+}
+
+.boton1 a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.boton1 a:hover{
+    color:khaki;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+}
+
+.texto2{
+    width: 52%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 1.8em;
+}
+
+.container-fotos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 24px;
+}
+
+.fotos{
+    width: 65%;
+}
+
+.iglesia{
+    width: 49%;
+}
+
+.cementerio{
+    width: 47%;
+}
+
+.container3{
+    display: flex;
+    justify-content: center;
+    padding-top: 130px;
+}
+
+.fondo-verde{
+    width: 80%;
+    display: flex;
+    background-color: #6E9E30;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.parrafada{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 1.8em;
+    width: 43%;
+}
+
+.contenido4{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.contenido4v1{
+    width: 80%;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.texto4{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 1.8em;
+    text-align: justify;
+}
+
+.foto4{
+    width: 35%;
+}
+
+.exclavitud{
+    width: 100%;
+}
+
+.contenido5{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenido5v1{
+    width: 80%;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.texto5{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 1.8em;
+    text-align: justify;
+}
+
+.foto5{
+    width: 35%;
+    z-index: 1;
+}
+
+.faramello{
+    width: 100%;
+}
+
+.texto5{
+    width: 50%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 1.8em;
+    text-align: justify;
+}
+
+.contenido5v2{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    bottom: 140px;
+    left: 33px;
+}
+
+.texto5v1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 1.8em;
+    text-align: justify;
+}
+
+.texto5v1 a{
+    color: #6E9E30;
+    text-decoration: none;
+}
+
+.texto5v1 a:hover{
+    color:green;
+}
+
+.foto5v1{
+    position: relative;
+    left: 50px;
+}
+
+.castro{
+    width: 50%;
+}
+
+.contenido6-1{
+    display: flex;
+    justify-content: center;
+}
+
+.cuadro-verde{
+    background-color: #6E9E30;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.parrafo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 1.8em;
+    text-align: justify;
+    width: 61%;
+}
+
+.fotos-verde{
+    display: flex;
+    justify-content: center;
+}
+
+.cruceiro{
+    width: 34%;
+}
+
+.contenido7{
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+}
+
+.contenido7v1{
+    width: 80%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.texto7{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 1.8em;
+    text-align: justify;
+    width: 64%;
+}
+
+.catedral{
+    width: 100%;
+}
+
+footer{
+    background-color: #6E9E30;
+    margin-top: 50px;
+    
+}
+.contenedor-pe{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.contenedor-pe img{
+    max-width: 170px;
+    object-fit: contain;
+    margin-top: 50px;
+}
+
+.menu-footer a{
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.menu-footer  {
+    
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    
+}
+.contenedor-pe1{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.contenedor-pe1 img{
+    max-height: 120px;
+    object-fit: contain;
+}
+
+.contenido6{
+    display: flex;
+    align-items: center;
+}
+.img{
+    height: 130px;
+}
+
+.contenido6 img{
+    max-width: 50px;
+}
+.contenido6A{
+    display: flex;
+    align-items: center;
+}
+.contenido6A img{
+    max-width: 50px;
+}
+.contenido6A a img:nth-child(2){
+    max-width: 46px;
+}
+.logo1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1700px){
+    .abajo img{
+        max-width: 90%;
+    }
+    .mapa{
+        object-fit: contain;
+        background-position: top;
+    }
+    .fotos-verde img{
+        width: 50%;
+        object-fit: contain;
+    }
+  }
+  
+  @media screen and (max-width: 1400px){
+    .menu-inferior{
+        flex-wrap: wrap;
+        height: unset;}
+
+    header {
+        height: 100%;
+    }
+
+    .menu-inferior {
+        height: 100%;
+        margin-top: unset;
+    }
+
+    .menu-inferior ul{
+        flex-wrap: wrap;
+        gap: 2em 7em;
+        justify-content: center;
+    }
+
+    .menu-superior ul {
+        flex-direction: column;
+    }
+
+    .idiomas {
+        justify-content: space-evenly;
+    }
+
+    .fondofrase, .menu2 {
+        height: unset;
+    }
+    .menu-footer{
+        flex-direction: column;
+        align-items: center;
+        gap: 1.6em;
+    }
+
+  }
+  @media screen and (max-width: 1200px){
+    .fondo-verde{  
+        height: 580px; 
+    }
+    .contenido5v1 {
+        height: 720px;
+        justify-content: space-between;
+    }
+
+    .contenedor-slogan{
+        text-align: center;
+    }
+  
+}
+  @media screen and (max-width: 1024px){
+    .contenido0v1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .texto0{
+        width: 100%;
+    }
+    .foto{
+        width: auto;
+    }
+    .centrado {
+        min-height: 556px;
+    }
+    .verde{
+        width: 90%;
+    }
+    .texto2{
+        width: 80%;
+        text-align: justify;
+    }
+    .fondo-verde{
+        flex-direction: column;
+        align-items: center;
+        height: 580px;
+        justify-content: flex-start;
+    }
+    .parrafada{
+        width: 52%;
+        text-align: justify;
+    }
+    .contenido5v1 {
+        height: 825px;
+    }
+        
+  }
+  @media (max-width:800px) {
+    .contenido4v1 {
+        flex-direction: column;
+    }
+    .texto4{
+        width: auto;
+    }
+    .contenido5v1 {
+        flex-direction: column;
+        height: 900px;
+    }
+    .contenido5v2 {
+        position: unset;
+    }
+    .texto5{
+        width: auto;
+    }
+    .texto7{
+        width: 80%;
+    }
+    .foto5v1 {
+        position: unset;
+        display: flex;
+        justify-content: center;
+    }
+    .contenido7v1{
+        width: auto;
+    }
+
+
+    .contenido-inferior{
+        flex-direction: column;}
+
+    .flor-1,.flor-2,.flor-3 {
+        width: 70%;
+        max-width: unset;}
+
+    .contenedor-pe{
+        flex-direction: column;
+        align-items: center;
+        gap: unset;}
+
+    .contenedor-pe1{
+        flex-direction: column;}
+}
+
+  @media screen and (max-width: 768px){
+    .centrado {
+        min-height: 540px;
+        background-size: cover;
+    }
+    .verde{
+        width: 95%;
+    }
+    .Eslogan{
+        width: 72%;
+    }
+  }
+  @media screen and (max-width: 480px){
+   
+  }
+  @media screen and (max-width: 412px){
+  
+  }
