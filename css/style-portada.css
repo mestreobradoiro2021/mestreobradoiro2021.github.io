@@ -357,9 +357,9 @@ header{
 .contido2-der-inf{
     background-image: url('../img/Medo_13.JPG');
     background-attachment: scroll;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: top;
     display: flex;
     min-height: 175px;
     width: 100%;
