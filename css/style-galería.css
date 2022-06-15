@@ -44,6 +44,51 @@ a{  text-decoration: none;
 
 }
 
+/*              hover de botons e menú                  */
+
+ul li a:hover{
+    color: khaki;
+
+}
+
+a:hover{
+    color: khaki;
+    
+}
+
+.menu-footer a:hover{
+    color: khaki;
+
+}
+
+.boton a:hover{
+    background-color: rgba(45,198,101,0.7);
+}
+
+.logo1 img:hover{
+    opacity: 0.5;
+
+}
+
+.mp-padron:hover{
+    opacity: 0.5;
+
+}
+.izq2 .dodro:hover{
+    opacity: 0.5;
+
+}
+
+.maparois:hover{
+    opacity: 0.5;
+
+}
+.deco{
+    color: khaki;
+}
+
+/*                                                 */
+
 
 header{
     background-image: url('../img/agua.jpg');
@@ -82,21 +127,21 @@ nav ul li{
 }
 
 .idiomas{
-    width: 80%;
+    width: 71%;
     display: flex;
     justify-content: end;
     align-items: center;
-    padding-right: 20px;
+    
 }
 
 .idiomas nav ul{
     display: flex;
-    gap: 12px;
+    gap: 25px;
 }
 
 .Eslogan{
     display: flex;
-    width: 50%;
+    width: 35%;
     justify-content: end;
 }
 
@@ -156,8 +201,9 @@ nav ul li{
     text-align: justify;
 }
 
-.mapapadron img{
-     width: 100%;
+.mp-padron{
+     min-width: 400px;
+     width: 60%;
 }
 
 
@@ -176,11 +222,11 @@ nav ul li{
 
 .izq1{
     width: 25%;
-    z-index: 1;
+    
 }
 
-.escudopadron img{
-    max-width: 370px;
+.padron {
+    width: 100%;
 }
 
 
@@ -190,9 +236,9 @@ nav ul li{
 
 
 .textopadron{
-   
+    width: 100%;
     text-align: justify;
-    padding: 45px;
+    padding: 20px;
 }
 
 .caja1{
@@ -200,6 +246,7 @@ nav ul li{
     color: white;
     display: flex;
     border-radius: 12px;
+    justify-content: center;
 }
 
 .container2{
@@ -266,21 +313,20 @@ nav ul li{
     color: white;
     display: flex;
     border-radius: 12px;
+    justify-content: center;
 }
 
 .textododro{
+    width: 100%;
     text-align: justify;
-    padding: 45px;
+    padding: 20px;
 
 }
 
-.escudododro{
-    position: relative;
-    right: 35px;
-}
 
-.escudododro img{
-    max-width: 370px;
+
+.dodro{
+    width: 100%;
 }
 
 
@@ -341,8 +387,8 @@ nav ul li{
        z-index: 1;
    }
    
-   .escudorois img{
-       max-width: 370px;
+   .rois {
+       width: 100%;
    }
    
    
@@ -362,6 +408,7 @@ nav ul li{
        color: white;
        display: flex;
        border-radius: 12px;
+       justify-content: center;
    }
    
 .escudorois img{
@@ -369,8 +416,9 @@ nav ul li{
 }
 
 .textorois{
+    width: 100%;
   text-align: justify;
-  padding: 45px;
+  padding: 20px;
 }
 
 
@@ -443,3 +491,168 @@ footer{
     flex-direction: column;
     align-items: center;
 }
+
+/*                                          */
+
+/*        Medias                             */
+
+@media(max-width:1200px){
+
+    .Eslogan{
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .menu-inferior{
+        height: auto;
+    }
+
+    .menu-inferior nav ul{
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width:1024px){
+    
+    .xeral{
+      flex-direction: column;
+      width: 100%;
+      gap: 50px;
+    }
+
+    .izq{
+        width: 90%;
+    }
+
+    .derecha{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .padron{
+        width: 50%;
+        min-width: 400px;
+    }
+
+    .xeral1{
+        flex-direction: column;
+        width: auto;
+
+    }
+
+    .izq1{
+       
+        width: 90%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .derecha1{
+        width: 90%;
+        min-width: 400px;
+    }
+
+    .xeral2{
+        flex-direction: column-reverse;
+        gap: 50px;
+        width: auto;
+    }
+
+    .derecha2{
+        width: 90%;
+        
+    }
+
+    .izq2{
+        width: 90%;
+        display: flex;
+        justify-content: center; 
+    }
+
+    .dodro{
+        min-width: 400px;
+        width: 50%;
+    }
+
+    .xeral3{
+        flex-direction: column-reverse;
+        width: auto;
+    }
+
+
+    .derecha3{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .izq3{
+        width: 90%;
+    }
+
+    .xeral4{
+        flex-direction: column;
+        width: 100%;
+        gap: 50px;
+    }
+
+    .izq4{
+        width: 90%;
+    }
+
+    .derecha4{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.xeral5{
+    flex-direction: column;
+    width: auto;
+
+}
+
+.izq5{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.derecha5{
+    width: 90%;
+}
+
+
+.rois{
+    width: 50%;
+    min-width: 400px;
+}
+
+}
+
+/*         medias pe de paxina                 */
+
+@media(max-width:870px){
+
+    .contenedor-pe{
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+    }
+
+    .menu-footer{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .contenedor-pe1{
+        flex-direction: column;
+    }
+}
+/*                                             */
+
+
+

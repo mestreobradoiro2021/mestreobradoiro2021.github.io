@@ -5,6 +5,76 @@
     padding: 0;
 }
 
+
+/*                                              */
+
+h1{
+    font-size: 60px;
+    font-family: 'Allura', cursive;
+    color: #6e9e30b5;
+}
+
+
+h2{
+    font-size: 55px;
+    font-family: 'Allura', cursive;
+    color: #6E9E30;
+}
+
+
+h3{
+    font-size: 45px;
+    font-family: 'Allura', cursive;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 1.8em;
+    text-align: justify;
+
+
+}
+
+a{  text-decoration: none;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+/*                                                        */
+
+/*              hover de botons e menú                  */
+
+ul li a:hover{
+    color: khaki;
+
+}
+
+a:hover{
+    color: khaki;
+    
+}
+
+.menu-footer a:hover{
+    color: khaki;
+
+}
+
+.boton a:hover{
+    background-color: rgba(45,198,101,0.7);
+}
+
+.logo1 img:hover{
+    opacity: 0.5;
+
+}
+
+.deco{
+    color: khaki;
+}
+/*                                                 */
+
 header{
     background-image: url('../img/banner.png');
     background-attachment: scroll;
@@ -19,12 +89,6 @@ header{
     align-items: center;
 }
 
-nav ul li a{
-    text-decoration: none;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-}
 
 nav ul li{
     display: inline-block;
@@ -33,7 +97,7 @@ nav ul li{
 .menu-superior{
     display: flex;
     width: 100%;
-    background-color: #96d93fad;
+    background-color: #6e9e3069;
     height: 100px;
 
 }
@@ -49,16 +113,18 @@ nav ul li{
 }
 
 .idiomas{
-    width: 80%;
+    width: 71%;
     display: flex;
     justify-content: end;
     align-items: center;
-    padding-right: 20px;
+
+    
 }
 
 .idiomas nav ul{
     display: flex;
-    gap: 12px;
+    gap: 25px;
+
 }
 
 .Container-Titulo{
@@ -85,8 +151,7 @@ nav ul li{
 
 
 .info-titulo{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+ 
     width: 30%;
     color: black;
 
@@ -129,18 +194,10 @@ nav ul li{
 }
 
 .titular-1{
-    font-family: 'Allura', cursive;
-    font-size: 55px;
-    color:#6E9E30;
     text-align: center;
 }
 
-.texto-1{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    text-align: justify;
-    line-height: 1.8em;
-}
+
 
 
 .general-derch{
@@ -163,14 +220,22 @@ nav ul li{
 }
 
 .texto-2{
+    
     display: flex;
     align-items: center;
     width: 75%;
-    text-align: justify;
-    font-family: 'Montserrat', sans-serif;
+   }
+
+   .texto-2 li{
     font-size: 20px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
     line-height: 1.8em;
-}
+    text-align: justify;
+
+ }
+
+
 
 .general-derch-inf{
     display: flex;
@@ -182,9 +247,11 @@ nav ul li{
     max-height: 400px;
     border: solid 5px black;
     position: relative;
-    top: 7%;
-    right: 12%;
+    top: -3%;
+    right: 15%;
+    width: 100%;
 }
+
 
 .container-xeral-2{
     display: flex;
@@ -204,8 +271,7 @@ nav ul li{
 }
 
 .titular-2{
-    font-family: 'Allura', cursive;
-    font-size: 45px;
+
     color:black;
     display: flex;
     align-items: center;
@@ -221,11 +287,8 @@ hr{
 }
 
 .texto-3{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    width: 80%;
-    line-height: 1.8em;
-    text-align: justify;
+      width: 80%;
+   
 }
 
 .contenido-xeral-2v1{
@@ -241,18 +304,11 @@ hr{
     align-items: center;
 }
 
-.texto-4{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    line-height: 1.8em;
-    text-align: justify;
-}
+
+
 
 .texto-5{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    line-height: 1.8em;
-    text-align: justify;
+ 
     display: flex;
     width: 75%;
     justify-content: center;
@@ -261,12 +317,7 @@ hr{
     padding-left: 30px;
 }
 
-.texto-6{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    line-height: 1.8em;
-    text-align: justify;
-}
+
 
 .foto{
     width: 50%;
@@ -289,10 +340,7 @@ hr{
 }
 
 .texto-7{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    line-height: 1.8em;
-    text-align: justify;
+ 
     width: 100%;
 }
 
@@ -303,26 +351,17 @@ hr{
 
 .descripcion-2v1{
     width: 45%;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    line-height: 1.8em;
-    text-align: justify;
 }
 
 .descripcion-2v2{
     width: 45%;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    line-height: 1.8em;
-    text-align: justify;
 
 }
 
 .texto-8{
     border-left: 5px solid #6E9E30;
     padding-left: 30px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+   
     width: 87%;
 }
 
@@ -349,18 +388,10 @@ hr{
     width: 50%;
     display: flex;
     align-items: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    line-height: 1.8em;
-    text-align: justify;
+ 
 }
 
-.texto-10{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    line-height: 1.8em;
-    text-align: justify;
-}
+
 
 .imaxe-fondo-monte{
     width: 100%;
@@ -371,12 +402,11 @@ hr{
 }
 
 .texto-11{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    line-height: 1.8em;
-    text-align: justify;
+
     width: 80%;
 }
+
+/*                    footer                     */
 
 footer{
     background-color: #6E9E30;
@@ -394,17 +424,9 @@ footer{
     margin-top: 50px;
 }
 
-.menu-footer a{
-    font-size: 18px;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-family: Arial, Helvetica, sans-serif;
-}
+
 
 .menu-footer  {
-    
-    font-family: Arial, sans-serif;
-    font-size: 20px;
     padding-bottom: 20px;
     display: flex;
     justify-content: space-evenly;
@@ -448,11 +470,28 @@ footer{
     align-items: center;
 }
 
+/*                                               */
+
+/*                 Medias                       */
+
 @media (max-width:1200px){
 
     .Container-Titulo{
         width: auto;
-        height: 470px;
+        height: auto;
+        padding: 10px;
+    }
+
+    .Container-info-titulo{
+        justify-content: center;
+        text-align: center;
+        text-align-last: center;
+
+    }
+
+
+    .info-titulo{
+        width: auto;
     }
 
     .menu-inferior{
@@ -465,66 +504,110 @@ footer{
     }
 
     .contenido-orixe-comunidad{
-       display: block;
+       grid-template-columns: 1fr;
+       grid-template-rows: auto;
+       gap: 80px;
+       justify-content: center;
     }
 
-    .titular-1{
-        font-size: 47px;
-    }
-
-    .arbol{
-        position: relative;
-        right: -4%;
-    }
-
-    .montecito{
-        max-height: 265px;
-        right: -12%
-    }
-
-    .contenido-xeral-2{
+    .general-derch{
+        display: flex;
+        justify-content: center;
+        height: auto;
         width: auto;
+
+    }
+
+    .general-derch-inf{
+        justify-content: center;
         align-items: center;
-    }
-
-    .contenido-xeral-2v1{
-        flex-direction: column;
-        align-items: center;
-        gap: 50px;
-    }
-
-    .descripcion{
-        width: 80%;
-    }
-
-    .descripcion-2{
-        flex-direction: column;
-    }
-
-    .descripcion-2v1, .descripcion-2v2{
+        height: auto;
         width: auto;
     }
 
-    .descripcion-mapa-v1{
-        flex-direction: column;
-        align-items: center;
-        gap: 30px;
+  .general-izq-inf{
+    padding-left: 0%;
+    justify-content: center;
+    height: auto;
+    padding: 15px;
+
+  }
+  .texto-2{
+    width: 90%;
+  }
+
+ .titular-1{
+     font-size: 47px;
+ }
+
+.arbol{
+     position: unset;
+     right: 0%;
+     top: 0%;
     }
 
-    .foto-mapa{
+ .montecito{
+     position: unset;
+     top: 0%;
+     right: 0%;
+     width: 100%;
+     max-height: inherit;
+     min-width: 400px;
+    }
+
+.contenido-xeral-2{
+     width: auto;
+     align-items: center;
+    }
+
+.contenido-xeral-2v1{
+    flex-direction: column;
+    align-items: center;
+     gap: 50px;
+    }
+
+.descripcion{
+     width: 80%;
+    }
+
+.descripcion-2{
+     flex-direction: column;
+    }
+
+.descripcion-2v1, .descripcion-2v2{
+    width: auto;
+
+    }
+
+.descripcion-mapa-v1{
+     flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    }
+
+.foto-mapa{
+    display: flex;
+    justify-content: center;
+    min-width: 400px;
+    width: auto;
+    }
+
+.texto-9{
         width: auto;
     }
 
-    .texto-9{
-        width: auto;
+.menu-footer{
+    flex-wrap: wrap;
+    gap: 20px;
+
     }
 
-    .contenedor-pe{
+.contenedor-pe{
         flex-direction: column;
         align-items: center;
     }
 
-    .contenedor-pe1{
+ .contenedor-pe1{
         flex-direction: column;
     }
 }

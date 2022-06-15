@@ -40,19 +40,54 @@ a{
     color: rgb(255, 255, 255);
 }
 
+/*              hover de botons e menú                  */
+
+ul li a:hover{
+    color: khaki;
+
+}
+
+a:hover{
+    color: khaki;
+    
+}
+
+.menu-footer a:hover{
+    color: khaki;
+
+}
+
+.boton a:hover{
+    background-color: rgba(45,198,101,0.7);
+}
+
+.logo1 img:hover{
+    opacity: 0.5;
+}
 
 
 .frase a:hover{
-    font-size: 30px;
-    width: 100%;
+        font-size: 30px;
+        width: 100%;
+ }
+    
+.frase-back:hover{
+        background-color:  #2dc6658f;
+        position: absolute;
+        height: 287px;
+        width: 450px;
 }
 
-.frase-back:hover{
-    background-color:  #2dc6658f;
-    position: absolute;
-    height: 287px;
-    width: 450px;
+.deco{
+    color: khaki;
 }
+
+
+/*                                                 */
+
+
+
+
 
 /*                                                                   */
 
@@ -363,6 +398,8 @@ footer{
 
 /*                                                                 */
 
+/*           Medias                                       */
+
 @media (max-width: 1200px){
     .menu-inferior{
         height: 20%;
@@ -405,6 +442,16 @@ footer{
     .contenedor-pe1{
         flex-direction: column;
     }
+
+    .Eslogan{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .Eslogan h1{
+       text-align: center;
+       padding: 10px;
+    }
 }
 
 @media (max-width:500px){
@@ -426,5 +473,9 @@ footer{
         flex-direction: column;
         align-items: center;
         gap: 0;
+    }
+
+    .información{
+        width: 90%;
     }
 }

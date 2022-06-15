@@ -40,6 +40,51 @@ a{
     text-decoration: none;
 }
 
+
+
+/*              hover de botons e menú                  */
+
+
+
+a:hover{
+    color: khaki;
+    
+}
+
+.button:hover{
+background-color: rgba(45,198,101,0.7);
+}
+
+.logo1 img:hover{
+    opacity: 0.5;
+
+}
+
+.idiomas ul li a:hover{
+    color: khaki;
+
+}
+.contenido3 a:hover{
+    color: khaki;
+
+}
+
+.verde:hover{
+    height: 100%;
+}
+.verde-v1:hover{
+    height: 100%;
+}
+.verde-v2:hover{
+    height: 100%;
+}
+.verde-v3:hover{
+    height: 100%;
+}
+
+
+/*                                                 */
+
 /*                header                  */
 
 
@@ -101,12 +146,12 @@ a{
      min-height: 900px;
 }
 
-.logo-terra{
+.logoterra{
     width: 20%;
 
 }
 .idiomas{
-    width: 80%;
+    width: 71%;
     display: flex;
     justify-content: end;
     align-items: center;
@@ -271,6 +316,7 @@ header{
     min-height: 250px;
     width: 50%;
     align-items: flex-end;
+    position: relative;
     
 }
 
@@ -281,6 +327,8 @@ header{
     background-color: #6e9e30b5;
     align-items: center;
     justify-content: center;
+    position: absolute;
+    transition: height 2s;
 }
 
 .verde-v1 {
@@ -290,6 +338,8 @@ header{
     background-color: #6e9e30b5;
     align-items: center;
     justify-content: center;
+    position: absolute;
+    transition: height 2s;
 }
 
 .verde-v2 {
@@ -299,6 +349,8 @@ header{
     background-color: #6e9e30b5;
     align-items: center;
     justify-content: center;
+    position: absolute;
+    transition: height 2s;
 }
 
 .verde-v3 {
@@ -308,6 +360,8 @@ header{
     background-color: #6e9e30b5;
     align-items: center;
     justify-content: center;
+    position: absolute;
+    transition: height 2s;
 }
 
 
@@ -316,7 +370,7 @@ header{
     display: flex;
     flex-direction: column;
     width: 49%;
-    gap: 8px;
+    gap: 12px;
 
 }
 
@@ -337,6 +391,7 @@ header{
     min-height: 250px;
     width: 49%;
     align-items: flex-end;
+    position: relative;
 
 }
 
@@ -351,6 +406,7 @@ header{
     min-height: 250px;
     width: 49%;
     align-items: flex-end;
+    position: relative;
 
 }
 
@@ -359,11 +415,12 @@ header{
     background-attachment: scroll;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: 50%;
     display: flex;
-    min-height: 175px;
+    min-height: 197px;
     width: 100%;
     align-items: flex-end;
+    position: relative;
 }
 
 
@@ -524,16 +581,17 @@ footer{
     }
 
     .contido2-izq{
-        width: 100%;
-        min-height: 660px;
-        background-size: contain;
-        background-position: bottom;
+        width: 90%;
+        min-height: 560px;
+        background-size: cover;
+        background-position: 50%;
 
     }
 
     .contido2-der{
         width: 100%;
         gap: 35px;
+        align-items: center;
     }
 
     .contido2-der-sup{
@@ -544,24 +602,25 @@ footer{
     }
 
     .peregrin{
-        width: 100%;
-        min-height: 660px;
-        background-size: contain;
-        background-position: bottom;
+        width: 90%;
+        min-height: 619px;
+        background-size: cover;
+        background-position: 50%;
     }
 
     .hermita{
-        width: 100%;
-        min-height: 660px;
-        background-size: contain;
-        background-position: bottom;
+        width: 90%;
+        min-height: 609px;
+        background-size: cover;
+        background-position: 50%;
 
 
     }
 
     .contido2-der-inf{
-       min-height: 324px;
+       min-height: 236px;
        background-size: cover;
+       width: 90%;
 
     }
 

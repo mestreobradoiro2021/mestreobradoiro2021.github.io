@@ -40,6 +40,37 @@ a{
 
 /*                                             */
 
+/*              hover de botons e menú                  */
+
+ul li a:hover{
+    color: khaki;
+
+}
+
+a:hover{
+    color: khaki;
+    
+}
+
+.menu-footer a:hover{
+    color: khaki;
+
+}
+
+.boton a:hover{
+    background-color: rgba(45,198,101,0.7);
+}
+
+.logo1 img:hover{
+    opacity: 0.5;
+
+}
+
+.deco{
+    color: khaki;
+}
+/*                                                 */
+
 .imgheader{
     display: flex;
 }
@@ -56,7 +87,7 @@ a{
 .fraseinicio{
     display: flex;
     justify-content: end;
-    width: 90%;
+    width: 43%;
 }
 
 
@@ -65,10 +96,10 @@ a{
     opacity: 69%;
     display: flex;
     justify-content: center;
-    height: 100px;
-    width: 700px;
+    width: 635px;
     border-radius: 12px;
     align-items: center;
+    text-align: center;
 }
 
 .lg-terra{
@@ -91,15 +122,15 @@ a{
     background-size: cover;
     background-attachment: fixed;
     background-position: 50% 45%;
-     min-height: 900px;
+     min-height: 800px;
 }
 
-.logo-terra{
+.logoterra{
     width: 20%;
 
 }
 .idiomas{
-    width: 80%;
+    width: 71%;
     display: flex;
     justify-content: end;
     align-items: center;
@@ -107,8 +138,8 @@ a{
 
 
 header{
-    background-image: url('../img/aerea-torre-hercules.jpg');
-    height: 550px;
+    background-image: url('../img/slide-casarosalia.jpg');
+    height: 900px;
     width: auto;
     background-repeat: no-repeat;
     background-size: cover;
@@ -614,9 +645,7 @@ footer{
 }
 
 .menu-footer  {
-    
-    font-family: Arial, sans-serif;
-    font-size: 17px;
+   
     padding-bottom: 20px;
     display: flex;
     justify-content: space-evenly;

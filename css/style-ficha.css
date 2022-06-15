@@ -24,12 +24,43 @@ p{
     letter-spacing: 0.2em;
 }
 
+/*              hover de botons e menú                  */
+
+ul li a:hover{
+    color: khaki;
+
+}
+
+a:hover{
+    color: khaki;
+    
+}
+
+.menu-footer a:hover{
+    color: khaki;
+
+}
+
+.boton a:hover{
+    background-color: rgba(45,198,101,0.7);
+}
+
+.logo1 img:hover{
+    opacity: 0.5;
+
+}
+/*                                                 */
+
 .foto-1{
-    max-width: 450px;
+    width: 100%;;
 }
 
 .foto-2{
-    max-width: 450px;
+    width: 100%;
+}
+
+.avelan{
+    width: 100%;
 }
 
 .derecha a{
@@ -170,7 +201,7 @@ p{
 
 .fotos{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     padding-bottom: 100px;
 }
 
@@ -269,4 +300,66 @@ footer{
     flex-direction: column;
     align-items: center;
 }
+
+/*                                            */
+/*           Medias                          */
+
+
+     @media(max-width:870px){
+
+
+    .contido{
+        text-align: center;
+        width: auto;
+    }
+    
+    .general-1{
+        justify-content: center;
+    }
+
+    .contido-1{
+        width: auto;
+    }
+
+    .contido-2{
+        width: 90%;
+        text-align: center;
+    }
+
+    .contido-2 p {
+        text-align: justify;
+    }
+
+    .contido-3{
+        width: 90%;
+    }
+
+
+    /* medias pe de paxina */
+
+
+    .contenedor-pe{
+      flex-direction: column;
+      align-items: center;
+      gap: 0px;
+  }
+  
+  .menu-footer{
+      flex-wrap: wrap;
+      gap: 20px;
+  }
+  
+  .contenedor-pe1{
+      flex-direction: column;
+  }
+
+
+    }
+  /*                               */   
+  
+  
+  
+
+
+
 

@@ -47,6 +47,29 @@ iframe{
     width: 100%;
 }
 
+/*              hover de botons e menú                  */
+
+
+
+a:hover{
+    color: khaki;
+    
+}
+
+.button:hover{
+background-color: rgba(45,198,101,0.7);
+}
+
+.logo1 img:hover{
+    opacity: 0.5;
+
+}
+
+.deco{
+    color: khaki;
+}
+/*                                                 */
+
 
 header{
     background-image: url('../img/escaleras.jpg');
@@ -91,28 +114,28 @@ nav ul li{
 }
 
 .idiomas{
-    width: 80%;
+    width: 71%;
     display: flex;
     justify-content: end;
     align-items: center;
-    padding-right: 20px;
+    
 }
 
 .idiomas nav ul{
     display: flex;
-    gap: 12px;
+    gap: 25px;
 }
 
 .mover{
     display: flex;
     justify-content: center;
-    width: 40%;
-    padding-top: 60px;
+    width: 55%;
+    
 }
 
 .Eslogan{
     display: flex;
-    width: 60%;
+    width: 75%;
     text-align: center;
 }
 
@@ -120,7 +143,6 @@ nav ul li{
     background-color: white;
     opacity: 69%;
     border-radius: 12px;
-    padding: 5px;
     width: 77%;
 }
 
@@ -158,9 +180,7 @@ nav ul li{
     padding: 10px;
 }
 
-.button:hover{
-    background-color: #3C7559;
-}
+
 
 .centrado0{
     display: flex;
@@ -198,6 +218,10 @@ nav ul li{
     width: 90%;
     color: white;
     
+}
+
+.titulo0 h3{
+    font-weight: 200;
 }
 
 .texto0{
@@ -278,6 +302,10 @@ nav ul li{
     
 }
 
+.titulo-castro h3{
+    font-weight: 200;
+}
+
 .texto-castro{
     text-align: justify;
     height: 215px;
@@ -303,6 +331,12 @@ nav ul li{
     display: flex;
     justify-content: center;
     color: white;
+
+    
+}
+
+.titulo-penicias h3{
+    font-weight: 200
     
 }
 
@@ -343,6 +377,12 @@ nav ul li{
     display: flex;
     justify-content: center;
     color: white;
+
+}
+
+.titulo-avelan h3{
+    font-weight: 200
+
 }
 
 .texto-avelan{
@@ -374,6 +414,12 @@ nav ul li{
     display: flex;
     justify-content: center;
     color: white;
+
+}
+
+.titulo-paxareira h3{
+    font-weight: 200
+
 }
 
 .texto-paxareira{
@@ -405,6 +451,11 @@ nav ul li{
     display: flex;
     justify-content: center;
     color: white;
+}
+
+.titulo-lestrove h3{
+    font-weight: 200
+
 }
 
 .texto-lestrove{
@@ -439,6 +490,12 @@ nav ul li{
     display: flex;
     justify-content: center;
     color: white;
+
+}
+
+.titulo-pedronía h3{
+    font-weight: 200
+
 }
 
 .texto-pedronía{
@@ -466,6 +523,12 @@ nav ul li{
     display: flex;
     justify-content: center;
     color: white;
+
+}
+
+.titulo-pemento h3{
+    font-weight: 200
+
 }
 
 .texto-pemento{
@@ -505,6 +568,10 @@ nav ul li{
     text-align: center;
 } 
 
+.titulo-cela h3{
+    font-weight: 200;
+}
+
 .texto-cela{
     text-align: justify;
     height: 150px;
@@ -532,6 +599,10 @@ nav ul li{
     color: white;
     text-align: center;
 } 
+
+.titulo-rosaliano h3{
+    font-weight: 200;
+}
 
 .texto-rosaliano{
     text-align: justify;
@@ -569,6 +640,10 @@ nav ul li{
     text-align: center;
 }
 
+.titulo-cela1 h3{
+    font-weight: 200;
+}
+
 .texto-cela1{
     text-align: justify;
     height: 150px;
@@ -595,6 +670,10 @@ nav ul li{
     justify-content: center;
     color: white;
     text-align: center;
+}
+
+.titulo-cela2 h3{
+    font-weight: 200;
 }
 
 .texto-cela2{
@@ -632,6 +711,10 @@ nav ul li{
     text-align: center;
 }
 
+.titulo-cela3 h3{
+    font-weight: 200;
+}
+
 .texto-cela3{
     text-align: justify;
     height: 150px;
@@ -660,6 +743,10 @@ nav ul li{
     text-align: center;
     height: 115px;
     align-items: center;
+}
+
+.titulo-bandin h3{
+    font-weight: 200;
 }
 
 .texto-bandin{
@@ -698,6 +785,9 @@ nav ul li{
     height: 115px;
     align-items: center;
 }
+.titulo-xacobeo h3{
+    font-weight: 200;
+}
 
 .texto-xacobeo{
     text-align: justify;
@@ -727,6 +817,10 @@ nav ul li{
     text-align: center;
     height: 115px;
     align-items: center;
+}
+
+.titulo-literario h3{
+    font-weight: 200;
 }
 
 .texto-literario{
@@ -831,12 +925,11 @@ footer{
     }
 
     .mover{
-        padding-top: 0;
-        width: 44%;
+       width: auto;
     }
 
     .Eslogan{
-        width: 75%;
+        width: 60%;
     }
 
     .Eslogan h1{

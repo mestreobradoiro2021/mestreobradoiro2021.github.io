@@ -41,6 +41,31 @@ a{  text-decoration: none;
 
 }
 
+/*              hover de botons e menú                  */
+
+
+a:hover{
+    color: khaki;
+    
+}
+
+.boton a:hover{
+    background-color: rgba(45,198,101,0.7);
+}
+
+.logo1 img:hover{
+    opacity: 0.5;
+
+}
+
+.deco{
+    color: khaki;
+}
+
+
+
+/*                                    */
+
 .lg-terra{
     width: 205px;
     position: relative;
@@ -122,7 +147,7 @@ a{  text-decoration: none;
 
 }
 .idiomas{
-    width: 80%;
+    width: 71%;
     display: flex;
     justify-content: end;
     align-items: center;
@@ -162,6 +187,7 @@ header{
     justify-content: space-between;
     display: flex;
     flex-direction: column;
+    background-position: 50%;
 
 }
 
@@ -174,6 +200,10 @@ header{
     display: flex;
     justify-content: center;
     height: 100px;
+}
+
+.logoterra{
+    width: 20%;
 }
 
 .logo img{
@@ -226,6 +256,10 @@ header{
     padding-top: 110px;
     gap: 80px;
     padding-bottom: 100px;
+}
+
+.titulo{
+    text-align: center;
 }
 
 .general-2{
@@ -428,7 +462,11 @@ footer{
 .contenedor-pe1 img{
     max-height: 120px;
     object-fit: contain;
+
+    
 }
+/*                                 */
+
 
 .contenido6{
     display: flex;
@@ -458,3 +496,257 @@ footer{
 }
 
 /*                                                           */
+
+/*                      Medias                             */
+
+@media(max-width:1200px){
+    .fraseinicio{
+        justify-content: center;
+        width: 100%;
+    }
+    
+    
+    .menu-principal{
+        height: auto;
+    
+    }
+    
+    .menu-principal ul{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+    }
+
+
+}
+
+@media(max-width:1024px){
+
+    .general-2{
+        width: 90%;
+        align-items: center;
+    }
+
+    .subtitulo{
+        text-align: center;
+    }
+
+    .general-3{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .contenido-izq{
+        width: auto;
+    }
+
+    
+
+    .foto-playa{
+        display: flex;
+        justify-content: center;
+    }
+
+    .playa{
+        width: 70%;
+        min-width: 400px;
+    }
+
+    .contenido-derecha{
+        width: auto;
+        gap: 50px;
+    }
+
+    .foto-sendero{
+        display: flex;
+        justify-content: center;
+    }
+
+    .area-recreativa{
+        width: 70%;
+        min-width: 400px;
+    }
+
+    .general-5{
+        width: 90%;
+        align-items: center;
+    }
+
+    .subtitulo-1{
+        text-align: center;
+    }
+
+    .contenido-superior{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .contenido-izq-1{
+        width: 100%;
+
+    }
+
+    .contenido-derecha-1{
+        width: 100%;
+        gap: 50px;
+
+    }
+
+    .xardin{
+        display: flex;
+        justify-content: center;
+    }
+
+    .xardin-1{
+        width: 70%;
+        min-width: 400px;
+    }
+
+    .contenido-inferior{
+        width: 90%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .flor-1{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .f1{
+        width: 55%;
+        min-width: 370px;
+    }
+
+    .flor-2{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .flor-2-v1{
+        display: flex;
+        justify-content: center;
+    }
+
+    
+    .flor-2-v2{
+        display: flex;
+        justify-content: center;
+    }
+
+    .f2{
+        width: 70%;
+        min-width: 370px;
+    }
+
+    .flor-3{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .f3{
+        width: 70%;
+        min-width: 370px;
+    }
+
+    .f4{
+        width: 55%;
+        min-width: 370px;
+    }
+
+    .general-superior-1{
+        width: 90%;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 50px;
+        
+    }
+
+    .general-inferior-1{
+        width: 90%;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .contenido-derecha-2{
+        width: auto;
+    }
+
+    .contenido-izq-2{
+        width: auto;
+    }
+
+    .mapa-brañas{
+      width: 100%;
+      justify-content: center;
+      display: flex;
+    }
+
+    .mapa-brañas-2{
+        width: 100%;
+        justify-content: center;
+        display: flex;
+      }
+
+      .mapa-brañas-3{
+        width: 100%;
+        justify-content: center;
+        display: flex;
+      }
+
+      .laiño-1{
+        width: 65%;
+        min-width: 400px;
+      }
+
+      .laiño-2{
+        width: 65%;
+        min-width: 400px;
+      }
+
+      .laiño-3{
+        width: 65%;
+        min-width: 400px;
+      }
+
+  
+
+
+}
+
+
+
+
+
+  /* medias pe de paxina */
+
+
+
+  @media(max-width:870px){
+  .contenedor-pe{
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+}
+
+.menu-footer{
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.contenedor-pe1{
+    flex-direction: column;
+}
+  }
+
+
+
+/*                                       */

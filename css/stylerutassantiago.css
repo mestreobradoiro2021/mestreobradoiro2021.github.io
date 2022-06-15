@@ -43,6 +43,33 @@ a{
 
 }
 
+/*              hover de botons e menú                  */
+
+ ul li a:hover{
+    color: khaki;
+
+}
+
+a:hover{
+    color: khaki;
+    
+}
+
+.button a:hover{
+    background-color: rgba(45,198,101,0.7);
+}
+
+.logo1 img:hover{
+    opacity: 0.5;
+
+}
+
+.deco{
+    color: khaki;
+}
+
+/*                                                 */
+
 .txt h3{
     font-weight: 300;
     font-family: 'Allura', cursive;
@@ -55,9 +82,7 @@ a{
     text-decoration: none;
 }
 
-.button a:hover{
-    background-color: #3C7559;
-}
+
 
 .foto-castros{
     width: 100%;
@@ -91,6 +116,9 @@ a{
     height: 200px;
     display: flex;
     align-content: center;
+}
+.logoterra{
+    width: 20%;
 }
 
 .fondofrase{
@@ -136,8 +164,9 @@ a{
     width: 20%;
 
 }
+
 .idiomas{
-    width: 80%;
+    width: 71%;
     display: flex;
     justify-content: end;
     align-items: center;
@@ -174,6 +203,7 @@ header{
 .fraseinicio{
     display: flex;
     justify-content: end;
+    width: 45%;
 
 }
 .fondofrase{
@@ -181,8 +211,7 @@ header{
     opacity: 69%;
     display: flex;
     justify-content: center;
-    height: 100px;
-    width: 700px;
+    width: 600px;
     border-radius: 12px;
     align-items: center;
 }
@@ -252,6 +281,7 @@ header{
 .titulo {
     display: flex;
     justify-content: center;
+    text-align: center;
 
 }
 
@@ -513,17 +543,18 @@ footer{
     flex-direction: column;
     align-items: center;
 }
+/*                                           */
 
 
 
 
 
 
-@media screen and (max-width: 1700px){
-  
-  }
-  
-  @media screen and (max-width: 1400px){
+/*                   Medias                  */
+
+
+
+@media screen and (max-width: 1400px){
     .menu-principal{
         flex-wrap: wrap;
         height: unset;}
@@ -543,32 +574,96 @@ footer{
         justify-content: center;
     }
 
-    .menu2 ul {
-        flex-direction: column;
-    }
-
-    .idiomas {
-        justify-content: space-evenly;
-    }
-
-    .fondofrase, .menu2 {
-        height: unset;
-    }
     .menu-footer{
-        flex-direction: column;
+        flex-wrap: wrap;
         align-items: center;
         gap: 1.6em;
     }
 
   }
-  @media screen and (max-width: 1200px){
 
+
+
+  @media screen and (max-width: 1200px){
+     .xeral-4{
+        
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+     }
+
+     .contenido-izq4{
+        width: auto;
+     }
+
+     .contenido-dere4{
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+     }
+
+     .foto-castros{
+        top: 0px;
+        width: 60%;
+        min-width: 400px;
+        position: unset;
+     }
+
+     .xeral-5{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+     }
+
+     .contenido-izq5{
+        width: auto;
+     }
+
+     .contenido-derecha5{
+        width: auto;
+        gap: 80px;
+     }
+
+     .foto-mapa22{
+        bottom: 0px;
+        position: unset;
+        width: 80%;
+        min-width: 400px;
+     }
+
+     .contenido6izq{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+     }
+
+     .contido{
+        width: auto;
+     }
+
+     .puesta-sol{
+        min-width: 400px;
+     }
+
+     .contidov1{
+        width: auto;
+        gap: 80px;
+        justify-content: center;
+        align-items: center;
+     }
   
 }
+
+
+
+
   @media screen and (max-width: 1024px){
     .xeral2{
         flex-direction: column;
         align-items: center;
+        width: 90%;
+        gap: 50px;
+    
     }
     .contenido2izq{
         width: auto;
@@ -576,28 +671,21 @@ footer{
     .contenido2der{
         width: auto;
     }
-    .xeral-4{
-        flex-direction: column;
-        align-items: center;
+
+
+     hr{
+        height: 100%;
     }
-    .contenido-izq4{
+
+    .fraseinicio{
+        justify-content: center;
         width: auto;
     }
-    .contenedor6{
-        flex-direction: column;
-        align-items: center;
-    }
-    .contenido6izq {
-        flex-direction: column;
-        align-items: center;
-    }
-    .contido{
-        width: auto;
-    }
-    .texto3{
-        width: auto;
-    }
+
   }
+
+
+
   @media (max-width:800px) {
     
     .contenido-inferior{
@@ -605,36 +693,26 @@ footer{
 
     .flor-1,.flor-2,.flor-3 {
         width: 70%;
-        max-width: unset;}
+        max-width: unset;
+    }
 
     .contenedor-pe{
         flex-direction: column;
         align-items: center;
-        gap: unset;}
+        gap: unset;
+    }
 
     .contenedor-pe1{
-        flex-direction: column;}
+        flex-direction: column;
+    }
 }
 
-  @media screen and (max-width: 768px){
-    .foto-castros {
-        position: unset;
-    }
-    .xeral-5{
-        flex-direction: column;
-        align-items: center;
-    }
-    .foto-mapa22 {
-        
-        position: unset;
-  }
+
+
+ @media screen and (max-width: 768px){
+  
+
     .contenido-izq5{
         width: auto;
     }
 }
-  @media screen and (max-width: 480px){
-   
-  }
-  @media screen and (max-width: 412px){
-  
-  }
