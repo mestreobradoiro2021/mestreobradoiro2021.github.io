@@ -40,30 +40,14 @@ a{
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     color: rgb(255, 255, 255);
-
-
-}
-/*                                                            */
-
-/*              hover de botons e menú                  */
-
-ul li a:hover{
-    color: khaki;
-
 }
 
 a:hover{
     color: khaki;
-    
 }
 
-.menu-footer a:hover{
+.deco{
     color: khaki;
-
-}
-
-.boton a:hover{
-    background-color: rgba(45,198,101,0.7);
 }
 
 .logo1 img:hover{
@@ -71,11 +55,7 @@ a:hover{
 
 }
 
-.deco{
-    color: khaki;
-}
-
-/*                                                 */
+/*                                                            */
 
 
 header{
@@ -129,7 +109,7 @@ nav ul li{
 }
 
 .contenedor-slogan{
-    width: 45%;
+    width: 40%;
     display: flex;
     justify-content: end;
 }
@@ -137,7 +117,7 @@ nav ul li{
 .Eslogan{
 
     display: flex;
-    width: 70%;
+    width: 83%;
     background-color: #ffffffd1;
     justify-content: center;
     border-radius: 12px;
@@ -256,14 +236,20 @@ nav ul li{
 
 }
 
-.botone{
+.boton{
     display: flex;
     width: 100%;
     justify-content: end;
     padding-right: 10px;
 }
 
+.boton1{
+    padding-top: 14px;
+}
 
+.boton1 a:hover{
+    color:khaki;
+}
 
 .container2{
     padding-top: 7%;
@@ -310,7 +296,9 @@ nav ul li{
 .arriba{
     display: flex;
     justify-content: space-evenly;
+    gap: 20px;
 }
+
 
 .abajo{
     display: flex;
@@ -326,15 +314,103 @@ nav ul li{
 }
 
 .iglesia{
-    width: 49%;
+    width: 100%;
 }
 
 .cementerio{
-    width: 47%;
+    width: 99.2%;
 } 
 
 .fundacion{
     width: 100%;
+}
+
+.position{
+    position: relative;
+    width: 53%;
+}
+
+.overlay{
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    background-color: rgba(45, 198, 101, 0.7);
+    overflow: hidden;
+    width: 100%;
+    height: 100px;
+    opacity: 0;
+    transition: height 2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.overlay:hover{
+    color: khaki;
+    text-align: center;
+}
+
+.position1{
+    position: relative;
+    width: 50%;
+}
+
+.overlay1{
+    position: absolute;
+    bottom: 4px;
+    left: 1px;
+    right: 2px;
+    background-color: rgba(45, 198, 101, 0.7);
+    overflow: hidden;
+    width: 99.1%;
+    opacity: 0;
+    height: 100px;
+    transition: height 2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.overlay1:hover{
+    color: khaki;
+    text-align: center;
+}
+
+.position2{
+    position: relative;
+    width: 97%;
+}
+
+.overlay2{
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    right: 0;
+    background-color: rgba(45, 198, 101, 0.7);
+    overflow: hidden;
+    width: 100%;
+    height: 100px;
+    opacity: 0;
+    transition: height 2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.overlay2:hover{
+    color: khaki;
+    text-align: center;
 }
 
 .container3{
@@ -607,13 +683,17 @@ footer{
     align-items: center;
 }
 
+.dodriño-1{
+    padding-top: 15px;
+}
+
 /*                                                          */
 
 /*                         medias                          */
 
 
 
-  @media screen and (max-width: 1400px){
+@media screen and (max-width: 1400px){
     .menu-inferior{
         flex-wrap: wrap;
         height: unset;}
@@ -633,13 +713,14 @@ footer{
         justify-content: center;
     }
 
-     .fondofrase, .menu2 {
+   
+    .fondofrase, .menu2 {
         height: unset;
     }
+}
 
 
-  }
-  @media screen and (max-width: 1200px){
+@media screen and (max-width: 1200px){
     .fondo-verde{  
         height: auto; 
         padding: 10px 0px 10px 0px;
@@ -680,12 +761,11 @@ footer{
     .foto5{
         width: 60%;
         min-width: 400px;
-    }
-
-
-  
+    } 
 }
-  @media screen and (max-width: 1024px){
+
+
+@media screen and (max-width: 1024px){
     .contenido0v1{
         flex-direction: column;
         align-items: center;
@@ -712,7 +792,7 @@ footer{
 
     .arriba{
         flex-direction: column;
-        align-items: center;
+        /* align-items: center; */
         gap: 20px;
     }
     .texto2{
@@ -750,6 +830,10 @@ footer{
     .cementerio{
         width: 75%;
         min-width: 400px;
+    }
+
+    .overlay{
+        width: 94%;
     }
 
     .contenido4v1{
@@ -813,8 +897,10 @@ footer{
         width: 90%;
     }
         
-  }
-  @media (max-width:870px) {
+}
+
+
+@media (max-width:870px) {
 
 
 
@@ -840,6 +926,21 @@ footer{
         /*                                       */
   
  
+
+    .overlay{
+        width: 195%;
+        height: 70px;
+    }
+
+    .overlay1{
+        width: 207.1%;
+        height: 70px;
+    }
+
+    .overlay2{
+        width: 106.6%;
+        height: 70px;
+    }
 
     .texto5{
         width: auto;

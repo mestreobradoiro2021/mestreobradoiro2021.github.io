@@ -47,6 +47,11 @@ iframe{
     width: 100%;
 }
 
+.dodriño{
+    width: 25%;
+    min-width: 400px;
+}
+
 /*              hover de botons e menú                  */
 
 
@@ -293,7 +298,7 @@ nav ul li{
     gap: 30px;
 }
 
-.titulo-castro{
+.titulares-seccion{
     background-color: #6E9E30;
     width: 100%;
     display: flex;
@@ -325,17 +330,19 @@ nav ul li{
     gap: 30px;
 }
 
-.titulo-penicias{
+
+.titulares-seccion{
     background-color: #6E9E30;
     width: 100%;
     display: flex;
     justify-content: center;
     color: white;
+    text-align: center;
 
     
 }
 
-.titulo-penicias h3{
+.titulares-seccion h3{
     font-weight: 200
     
 }
@@ -371,19 +378,7 @@ nav ul li{
     gap: 30px;
 }
 
-.titulo-avelan{
-    background-color: #6E9E30;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    color: white;
 
-}
-
-.titulo-avelan h3{
-    font-weight: 200
-
-}
 
 .texto-avelan{
     text-align: justify;
@@ -408,19 +403,6 @@ nav ul li{
     gap: 30px;
 }
 
-.titulo-paxareira{
-    background-color: #6E9E30;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    color: white;
-
-}
-
-.titulo-paxareira h3{
-    font-weight: 200
-
-}
 
 .texto-paxareira{
     text-align: justify;
@@ -445,18 +427,7 @@ nav ul li{
     gap: 30px;
 }
 
-.titulo-lestrove{
-    background-color: #6E9E30;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    color: white;
-}
 
-.titulo-lestrove h3{
-    font-weight: 200
-
-}
 
 .texto-lestrove{
     text-align: justify;
@@ -484,19 +455,6 @@ nav ul li{
     gap: 30px;
 }
 
-.titulo-pedronía{
-    background-color: #6E9E30;
-    width: 560px;
-    display: flex;
-    justify-content: center;
-    color: white;
-
-}
-
-.titulo-pedronía h3{
-    font-weight: 200
-
-}
 
 .texto-pedronía{
     text-align: justify;
@@ -517,19 +475,6 @@ nav ul li{
     gap: 30px;
 }
 
-.titulo-pemento{
-    background-color: #6E9E30;
-    width: 560px;
-    display: flex;
-    justify-content: center;
-    color: white;
-
-}
-
-.titulo-pemento h3{
-    font-weight: 200
-
-}
 
 .texto-pemento{
     text-align: justify;
@@ -559,18 +504,6 @@ nav ul li{
     gap: 30px;
 }
 
-.titulo-cela{
-    background-color: #6E9E30;
-    width: 560px;
-    display: flex;
-    justify-content: center;
-    color: white;
-    text-align: center;
-} 
-
-.titulo-cela h3{
-    font-weight: 200;
-}
 
 .texto-cela{
     text-align: justify;
@@ -591,18 +524,7 @@ nav ul li{
     gap: 30px;
 }
 
-.titulo-rosaliano{
-    background-color: #6E9E30;
-    width: 560px;
-    display: flex;
-    justify-content: center;
-    color: white;
-    text-align: center;
-} 
 
-.titulo-rosaliano h3{
-    font-weight: 200;
-}
 
 .texto-rosaliano{
     text-align: justify;
@@ -631,18 +553,7 @@ nav ul li{
     gap: 30px;
 }
 
-.titulo-cela1{
-    background-color: #6E9E30;
-    width: 560px;
-    display: flex;
-    justify-content: center;
-    color: white;
-    text-align: center;
-}
 
-.titulo-cela1 h3{
-    font-weight: 200;
-}
 
 .texto-cela1{
     text-align: justify;
@@ -663,18 +574,6 @@ nav ul li{
     gap: 30px;
 }
 
-.titulo-cela2{
-    background-color: #6E9E30;
-    width: 560px;
-    display: flex;
-    justify-content: center;
-    color: white;
-    text-align: center;
-}
-
-.titulo-cela2 h3{
-    font-weight: 200;
-}
 
 .texto-cela2{
     text-align: justify;
@@ -702,18 +601,7 @@ nav ul li{
     gap: 30px;
 }
 
-.titulo-cela3{
-    background-color: #6E9E30;
-    width: 560px;
-    display: flex;
-    justify-content: center;
-    color: white;
-    text-align: center;
-}
 
-.titulo-cela3 h3{
-    font-weight: 200;
-}
 
 .texto-cela3{
     text-align: justify;
@@ -732,21 +620,6 @@ nav ul li{
     flex-direction: column;
     align-items: center;
     gap: 30px;
-}
-
-.titulo-bandin{
-    background-color: #6E9E30;
-    width: 560px;
-    display: flex;
-    justify-content: center;
-    color: white;
-    text-align: center;
-    height: 115px;
-    align-items: center;
-}
-
-.titulo-bandin h3{
-    font-weight: 200;
 }
 
 .texto-bandin{
@@ -775,19 +648,6 @@ nav ul li{
     gap: 30px;
 }
 
-.titulo-xacobeo{
-    background-color: #6E9E30;
-    width: 560px;
-    display: flex;
-    justify-content: center;
-    color: white;
-    text-align: center;
-    height: 115px;
-    align-items: center;
-}
-.titulo-xacobeo h3{
-    font-weight: 200;
-}
 
 .texto-xacobeo{
     text-align: justify;
@@ -808,20 +668,6 @@ nav ul li{
     gap: 30px;
 }
 
-.titulo-literario{
-    background-color: #6E9E30;
-    width: 560px;
-    display: flex;
-    justify-content: center;
-    color: white;
-    text-align: center;
-    height: 115px;
-    align-items: center;
-}
-
-.titulo-literario h3{
-    font-weight: 200;
-}
 
 .texto-literario{
     text-align: justify;
@@ -842,6 +688,11 @@ nav ul li{
 .rosas{
     width: 100%;
 }
+
+/*                                      */
+
+
+/*           footer                  */
 
 
 footer{
@@ -912,6 +763,14 @@ footer{
     flex-direction: column;
     align-items: center;
 }
+
+.dodriño-1{
+    padding-top: 15px;
+}
+/*                                          */
+
+
+/*               medias                             */
 
 
 

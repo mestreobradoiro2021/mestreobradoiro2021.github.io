@@ -305,7 +305,7 @@ nav ul li{
 
 .derecha3{
     width: 25%;
-    z-index: 1;
+    
 }
 
 .caja3{
@@ -327,6 +327,8 @@ nav ul li{
 
 .dodro{
     width: 100%;
+    padding-left: 10px;
+
 }
 
 
@@ -490,6 +492,10 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.dodriño-1{
+    padding-top: 15px;
 }
 
 /*                                          */
