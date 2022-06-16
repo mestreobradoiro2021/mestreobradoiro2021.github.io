@@ -24,19 +24,19 @@
         </div>
         <div class="contenedor-slogan">
             <div class="Eslogan">
-                <h1>Facendo o Camiño</h1>
+                <h1>Facendo o camiño</h1>
             </div>
         </div>
         <div class="menu-inferior">
             <nav>
                 <ul>
                     <li><a href="Paxina-Orixes.html" target="_blank">Orixe Histórica</a></li>
-                        <li><a href="Galería.html"> Inf. Xeográfica</a></li>
+                        <li><a href="Galería.html" target="_blank"> Inf. Xeográfica</a></li>
                         <li><a href="Comunidad-Montes.html" target="_blank"> Comunidades de Montes</a></li>
                         <li><a href="rutas-santiago.html" class="deco" target="_blank"> Camiño de Santiago</a></li>
-                        <li><a href="TurismoVerde.html"> Turismo Verde</a></li>
-                        <li><a href="Ruta-Rosalía.html"> Ruta Turística</a></li>
-                        <li><a href="Paisaxes.html" target="_blank"> Catálogo</a></li>
+                        <li><a href="TurismoVerde.html" target="_blank"> Turismo Verde</a></li>
+                        <li><a href="Ruta-Rosalía.html" target="_blank"> Ruta Turística</a></li>
+                        <li><a href="Catálogo Paisaxes opcion2.html" target="_blank"> Catálogo</a></li>
                 </ul>
             </nav>
         </div>
@@ -83,9 +83,9 @@
                                 A documentación máis antiga do Xardín Botánico data do 1869, polo tanto está 
                                 considerado como un dos primeiros xardíns da xeografía española.</p>
                         </div>
-                        <div class="botone">
+                        <div class="boton">
                             <div class="boton1">
-                                <a href="https://xardinbotanico.padronturismo.gal/es/">Visitar "Xardín Botánico"</a>
+                                <a href="https://xardinbotanico.padronturismo.gal/es/" target="_blank">Visitar "Xardín Botánico"</a>
                             </div>
                         </div>
                     </div>
@@ -112,11 +112,20 @@
         <div class="container-fotos">
             <div class="fotos">
                 <div class="arriba">
-                    <img src="img/iria_flavia.jpg" alt="iria_flavia" class="iglesia">
-                    <img src="img/cementerio_iria.png" alt="cementerio_iria" class="cementerio">
+                    <div class="position">
+                        <a href="https://www.padronturismo.gal/es/disfruta/cultura-y-patrimonio/patrimonio-religioso/iglesia-de-santa-maria-a-maior-de-iria-flavia/" target="_blank"><div class="overlay">Iglesia de Santa María A Maior de Iria Flavia</div></a>
+                            <img src="img/iria_flavia.jpg" alt="iria_flavia" class="iglesia">
+                    </div>
+                    <div class="position1">
+                        <a href="https://www.padronturismo.gal/es/disfruta/cultura-y-patrimonio/patrimonio-religioso/cemiterio-de-adina/"  target="_blank"><div class="overlay1">Cementerio de Adina de Iria Flavia</div></a>
+                            <img src="img/cementerio_iria.png" alt="cementerio_iria" class="cementerio">
+                    </div>
                 </div>
                 <div class="abajo">
-                    <img src="img/fundacion2.jpg" alt="fundacion" class="fundacion">
+                    <div class="position2">
+                        <a href="https://fundacioncela.gal/es" target="_blank"><div class="overlay2">Fundación Pública Galega Camilo José Cela</div></a>
+                        <img src="img/fundacion2.jpg" alt="fundacion" class="fundacion">
+                    </div>
                 </div>
             </div>
         </div>
@@ -263,7 +272,7 @@
             </div>
             <div class="logo1">
                 <div class="img">
-                    <a href="http://www.dodro.gal/" target="_blank"><img src="img/logododro.png"></a>
+                    <a href="http://www.dodro.gal/" target="_blank"><img src="img/logododro.png" class="dodriño-1"></a>
                 </div>
                 <div class="contenido6">
                     <a href="https://es-es.facebook.com/concellodedodro/" target="_blank"><img src="img/logoface.png"></a>
@@ -273,6 +282,199 @@
             </div>
          </div>
    </footer>
-    
+
+
+    <script>
+    /*                         ↓    VARIABLES    ↓                             */
+
+        let activa=document.querySelectorAll(".position");
+        let cambio=document.querySelector(".overlay");
+
+        let activa1=document.querySelectorAll(".position1");
+        let cambio1=document.querySelector(".overlay1");
+
+        let activa2=document.querySelectorAll(".position2");
+        let cambio2=document.querySelector(".overlay2");
+
+    /*                         ↑    VARIABLES     ↑                             */
+
+
+
+    /*                         ↓    OVERLAY    ↓                             */
+
+        activa[0].addEventListener('mouseover', function(){
+            if(window.matchMedia("(min-width: 1920px)").matches){
+                cambio.style.height="516px";
+                cambio.style.opacity="1";
+            }
+
+            else if(window.matchMedia("(min-width: 1912px)").matches){
+                cambio.style.height="513px";
+                cambio.style.opacity="1";
+            }
+
+            else if(window.matchMedia("(min-width: 1800px)").matches){
+                cambio.style.height="483px";
+                cambio.style.opacity="1";
+            }
+
+            else if(window.matchMedia("(min-width: 1600px)").matches){
+                cambio.style.height="428px";
+                cambio.style.opacity="1";
+            }
+
+            else if(window.matchMedia("(min-width: 1400px)").matches){
+                cambio.style.height="373px";
+                cambio.style.opacity="1";
+            }
+
+            else if(window.matchMedia("(min-width: 1200px)").matches){
+                cambio.style.height="318px";
+                cambio.style.opacity="1";
+            }
+
+            else if(window.matchMedia("(min-width: 1024px)").matches){
+                cambio.style.height="267px";
+                cambio.style.opacity="1";
+            }
+
+            else{
+                cambio.style.height="267px";
+                cambio.style.opacity="1";
+            }
+        });
+
+        activa[0].addEventListener('mouseout', function(){
+            if(window.matchMedia("(min-width: 1024px)").matches){
+                cambio.style.height="100px";
+            }
+
+            else{
+                cambio.style.height="70px";
+                
+            }
+        });
+        
+    /*                         ↑    OVERLAY     ↑                             */
+
+
+
+    /*                         ↓    OVERLAY1    ↓                             */
+
+        activa1[0].addEventListener('mouseover', function(){
+            if(window.matchMedia("(min-width: 1920px)").matches){
+                cambio1.style.height="517px";
+                cambio1.style.opacity="1";
+            }
+
+            else if(window.matchMedia("(min-width: 1912px)").matches){
+                cambio1.style.height="515px";
+                cambio1.style.opacity="1";
+            }
+
+            else if(window.matchMedia("(min-width: 1800px)").matches){
+                cambio1.style.height="484px";
+                cambio1.style.opacity="1";
+            }
+
+            else if(window.matchMedia("(min-width: 1600px)").matches){
+                cambio1.style.height="429px";
+                cambio1.style.opacity="1";
+            }
+
+            else if(window.matchMedia("(min-width: 1400px)").matches){
+                cambio1.style.height="374px";
+                cambio1.style.opacity="1";
+            }
+
+            else if(window.matchMedia("(min-width: 1200px)").matches){
+                cambio1.style.height="319px";
+                cambio1.style.opacity="1";
+            }
+
+            else if(window.matchMedia("(min-width: 1024px)").matches){
+                cambio1.style.height="286px";
+                cambio1.style.opacity="1";
+            }
+
+            else{
+                cambio1.style.height="286px";
+                cambio1.style.opacity="1";
+            }
+        });
+
+        activa1[0].addEventListener('mouseout', function(){
+            if(window.matchMedia("(min-width: 1024px)").matches){
+                cambio1.style.height="100px";
+            }
+
+            else{
+                cambio1.style.height="70px";
+                
+            }
+        });
+
+    /*                         ↑    OVERLAY1    ↑                             */
+
+
+
+    /*                         ↓    OVERLAY2    ↓                             */
+
+        activa2[0].addEventListener('mouseover', function(){
+            if(window.matchMedia("(min-width: 1920px)").matches){
+                cambio2.style.height="626px";
+                cambio2.style.opacity="1";
+            }
+
+            else if(window.matchMedia("(min-width: 1912px)").matches){
+                cambio2.style.height="624px";
+                cambio2.style.opacity="1";
+            }
+
+            else if(window.matchMedia("(min-width: 1800px)").matches){
+                cambio2.style.height="586px";
+                cambio2.style.opacity="1";
+            }
+
+            else if(window.matchMedia("(min-width: 1600px)").matches){
+                cambio2.style.height="520px";
+                cambio2.style.opacity="1";
+            }
+
+            else if(window.matchMedia("(min-width: 1400px)").matches){
+                cambio2.style.height="455px";
+                cambio2.style.opacity="1";
+            }
+
+            else if(window.matchMedia("(min-width: 1200px)").matches){
+                cambio2.style.height="389px";
+                cambio2.style.opacity="1";
+            }
+
+            else if(window.matchMedia("(min-width: 1024px)").matches){
+                cambio2.style.height="331px";
+                cambio2.style.opacity="1";
+            }
+
+            else{
+                cambio2.style.height="172px";
+                cambio2.style.opacity="1";
+            }
+        });
+
+        activa2[0].addEventListener('mouseout', function(){
+            if(window.matchMedia("(min-width: 1024px)").matches){
+                cambio2.style.height="100px";
+            }
+
+            else{
+                cambio2.style.height="70px";
+                
+            }
+        });
+
+    /*                         ↑    OVERLAY2    ↑                             */    
+
+    </script>
 </body>
 </html>
